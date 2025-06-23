@@ -483,3 +483,55 @@
 [23Jun2025 22:42:29.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Getting an Upgrade]
 [23Jun2025 22:45:34.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Acquire Hardware]
 [23Jun2025 22:47:57.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Acquire Hardware]
+[23Jun2025 22:48:15.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Monster Hunter]
+[23Jun2025 22:48:39.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Isn't It Iron Pick]
+[23Jun2025 22:48:52.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Monster Hunter]
+[23Jun2025 22:49:51.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Suit Up]
+[23Jun2025 22:53:22.776] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:51699] logged in with entity id 5019 at (-4.5, 67.0, -23.5)
+[23Jun2025 22:53:22.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
+[23Jun2025 22:55:14.892] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[23Jun2025 22:55:14.906] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-281, y=-50, z=-279}
+[23Jun2025 22:55:14.907] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-281, y=-57, z=-280}
+[23Jun2025 22:55:14.941] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[23Jun2025 22:55:14.942] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[23Jun2025 22:55:14.942] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[23Jun2025 22:55:14.943] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[23Jun2025 22:55:14.957] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-283, y=-56, z=-275}
+[23Jun2025 22:55:22.692] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=122, y=64, z=-133} BlockPos{x=122, y=66, z=-135}
+[23Jun2025 22:55:32.955] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[23Jun2025 22:55:32.955] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[23Jun2025 22:55:32.956] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[23Jun2025 22:55:32.956] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[23Jun2025 22:55:32.956] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[23Jun2025 22:55:32.957] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[23Jun2025 22:55:32.958] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[23Jun2025 22:55:32.968] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-289, y=-57, z=-281}
+[23Jun2025 22:55:32.968] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-287, y=-56, z=-283}
+[23Jun2025 22:55:32.968] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-287, y=-57, z=-283}
+[23Jun2025 22:55:39.406] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[23Jun2025 22:55:39.407] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[23Jun2025 22:55:39.407] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[23Jun2025 22:55:39.407] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[23Jun2025 22:55:53.426] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Disconnected
+[23Jun2025 22:55:53.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
+[23Jun2025 22:57:53.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Diamonds!]
+[23Jun2025 22:58:56.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Isn't It Iron Pick]
+[23Jun2025 22:58:59.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Monster Hunter]
+[23Jun2025 22:58:59.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [A Strange Grave Dust]
+[23Jun2025 22:59:37.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Suit Up]
+[23Jun2025 23:00:13.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Not Today, Thank You]
+[23Jun2025 23:02:14.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Cover Me with Diamonds]
+[23Jun2025 23:02:32.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Not Today, Thank You]
+[23Jun2025 23:02:36.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Acquire Hardware]
+[23Jun2025 23:02:56.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Isn't It Iron Pick]
+[23Jun2025 23:03:00.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Diamonds!]
+[23Jun2025 23:05:14.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Diamonds!]
+[23Jun2025 23:06:29.877] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
+[23Jun2025 23:06:29.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[23Jun2025 23:06:29.942] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[23Jun2025 23:06:47.895] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63387] logged in with entity id 10255 at (10.418774469230996, 6.0, -231.69999998807907)
+[23Jun2025 23:06:47.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
