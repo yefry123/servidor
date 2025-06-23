@@ -569,3 +569,103 @@
 [23Jun2025 23:27:55.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
 [23Jun2025 23:28:04.571] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
 [23Jun2025 23:28:04.579] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[23Jun2025 23:28:15.134] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:64631] logged in with entity id 19800 at (-8.300000011920929, 68.0, -35.35392488799556)
+[23Jun2025 23:28:15.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
+[23Jun2025 23:28:17.676] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
+[23Jun2025 23:28:17.677] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
+[23Jun2025 23:28:35.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices was shot by Skeleton
+[23Jun2025 23:28:35.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Your First Grave]
+[23Jun2025 23:28:53.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has reached the goal [Here They Come]
+[23Jun2025 23:29:24.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Stone Age]
+[23Jun2025 23:29:43.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Getting an Upgrade]
+[23Jun2025 23:29:54.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Stone Age]
+[23Jun2025 23:29:58.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Sweet Dreams]
+[23Jun2025 23:30:04.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> ee
+[23Jun2025 23:30:12.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> e
+[23Jun2025 23:30:36.576] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[23Jun2025 23:30:36.577] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[23Jun2025 23:31:06.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Stone Age]
+[23Jun2025 23:31:11.595] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[23Jun2025 23:31:11.596] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[23Jun2025 23:31:43.081] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
+[23Jun2025 23:31:43.083] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
+[23Jun2025 23:31:53.727] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
+[23Jun2025 23:31:53.728] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
+[23Jun2025 23:32:03.478] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[23Jun2025 23:32:03.480] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[23Jun2025 23:32:43.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry was shot by Skeleton
+[23Jun2025 23:32:43.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Your First Grave]
+[23Jun2025 23:32:47.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices was shot by Skeleton
+[23Jun2025 23:33:03.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna was shot by Skeleton
+[23Jun2025 23:33:03.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Your First Grave]
+[23Jun2025 23:33:16.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Monster Hunter]
+[23Jun2025 23:33:16.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [A Strange Grave Dust]
+[23Jun2025 23:34:25.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> ole hable
+[23Jun2025 23:34:38.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Getting an Upgrade]
+[23Jun2025 23:35:58.502] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
+[23Jun2025 23:35:58.503] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
+[23Jun2025 23:36:19.215] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
+[23Jun2025 23:36:19.244] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
+[23Jun2025 23:36:51.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> ole ese discord no se me escucha
+[23Jun2025 23:37:07.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> comida
+[23Jun2025 23:37:41.779] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24298, l='ServerLevel[world]', x=83.62, y=110.00, z=-963.10] died, message: 'Villager was shot by Pillager'
+[23Jun2025 23:38:19.584] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24299, l='ServerLevel[world]', x=109.44, y=114.00, z=-992.81] died, message: 'Villager was shot by Pillager'
+[23Jun2025 23:38:31.778] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[23Jun2025 23:38:31.780] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[23Jun2025 23:40:37.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> que
+[23Jun2025 23:40:42.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> ahora halbo
+[23Jun2025 23:40:50.852] [Worker-Main-34/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:50.853] [Worker-Main-34/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:54.870] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:54.870] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:54.882] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:54.883] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:54.905] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:54.906] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:40:56.587] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6676ms or 133 ticks behind
+[23Jun2025 23:40:56.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 8.766756019049076,0.7247629905310191,5.014203128229383
+[23Jun2025 23:42:26.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> no
+[23Jun2025 23:42:29.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> dije yo
+[23Jun2025 23:44:27.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> fabio acepte
+[23Jun2025 23:46:16.042] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-217, y=100, z=-1240} BlockPos{x=-217, y=99, z=-1239}
+[23Jun2025 23:46:48.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Not Today, Thank You]
+[23Jun2025 23:47:44.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Monster Hunter]
+[23Jun2025 23:48:54.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Getting an Upgrade]
+[23Jun2025 23:49:58.062] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[23Jun2025 23:49:58.081] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[23Jun2025 23:51:44.523] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
+[23Jun2025 23:51:44.529] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
+[23Jun2025 23:53:35.949] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:36.209] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:36.305] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:36.382] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:36.415] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:36.698] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:37.629] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:37.629] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:37.874] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:37.900] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:37.926] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:38.069] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:38.130] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[23Jun2025 23:53:38.247] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:38.249] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:38.252] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:38.253] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:38.265] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:38.266] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[23Jun2025 23:53:38.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3819ms or 76 ticks behind
+[23Jun2025 23:53:38.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc moved too quickly! 0.33940145142187816,-2.7531999805212024,-9.624588563749256
+[23Jun2025 23:53:43.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Timed out
+[23Jun2025 23:53:43.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[23Jun2025 23:53:57.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63712] logged in with entity id 33433 at (244.1021269311854, 77.0, -191.4501328918647)
+[23Jun2025 23:53:57.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[23Jun2025 23:54:50.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has reached the goal [Bone Crusher]
+[23Jun2025 23:54:57.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
+[23Jun2025 23:56:05.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Knowledge of Death]
+[23Jun2025 23:56:05.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Funeral Theft]
+[23Jun2025 23:56:26.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
+[23Jun2025 23:56:26.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[23Jun2025 23:56:56.548] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63732] logged in with entity id 34787 at (277.3416816230706, 79.24918707874468, -350.9803884026709)
+[23Jun2025 23:56:56.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[23Jun2025 23:57:23.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Knowledge raises the soul]
