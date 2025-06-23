@@ -461,3 +461,13 @@
 [23Jun2025 22:21:18.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set yefry's game mode to Creative Mode
 [23Jun2025 22:23:00.518] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
 [23Jun2025 22:23:00.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
+[23Jun2025 22:32:21.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[23Jun2025 22:32:36.972] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:54807] logged in with entity id 665 at (-10.628618923832073, 68.0, -34.808921335497075)
+[23Jun2025 22:32:36.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
+[23Jun2025 22:32:51.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set yefry's game mode to Survival Mode
+[23Jun2025 22:37:14.367] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
+[23Jun2025 22:37:14.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
+[23Jun2025 22:37:39.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52158] logged in with entity id 1139 at (8.5, 69.0, -37.5)
+[23Jun2025 22:37:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[23Jun2025 22:37:41.870] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63208] logged in with entity id 1194 at (-3.5, 67.0, -37.5)
+[23Jun2025 22:37:41.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
