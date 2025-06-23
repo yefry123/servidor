@@ -471,3 +471,15 @@
 [23Jun2025 22:37:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
 [23Jun2025 22:37:41.870] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63208] logged in with entity id 1194 at (-3.5, 67.0, -37.5)
 [23Jun2025 22:37:41.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[23Jun2025 22:38:39.619] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:60325] logged in with entity id 1313 at (-7.5, 75.0, -31.5)
+[23Jun2025 22:38:39.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
+[23Jun2025 22:39:26.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Stone Age]
+[23Jun2025 22:39:47.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Stone Age]
+[23Jun2025 22:39:52.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Getting an Upgrade]
+[23Jun2025 22:40:09.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Getting an Upgrade]
+[23Jun2025 22:41:35.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Stone Age]
+[23Jun2025 22:41:49.046] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
+[23Jun2025 22:41:49.046] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[23Jun2025 22:42:29.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Getting an Upgrade]
+[23Jun2025 22:45:34.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Acquire Hardware]
+[23Jun2025 22:47:57.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Acquire Hardware]
