@@ -535,3 +535,37 @@
 [23Jun2025 23:06:29.942] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [23Jun2025 23:06:47.895] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63387] logged in with entity id 10255 at (10.418774469230996, 6.0, -231.69999998807907)
 [23Jun2025 23:06:47.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[23Jun2025 23:09:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Sweet Dreams]
+[23Jun2025 23:09:04.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> EWAS
+[23Jun2025 23:11:35.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Knowledge of Death]
+[23Jun2025 23:11:35.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Ashes 'n Bones]
+[23Jun2025 23:11:44.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Knowledge raises the soul]
+[23Jun2025 23:11:48.675] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/10293, l='ServerLevel[world]', x=-3.02, y=128.00, z=-374.13] died, message: 'Cleric was slain by Zombie'
+[23Jun2025 23:14:02.581] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:52932] logged in with entity id 13563 at (-69.50231533099321, 80.0, -49.042190769219076)
+[23Jun2025 23:14:02.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
+[23Jun2025 23:15:17.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> hola
+[23Jun2025 23:15:24.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Ice Bucket Challenge]
+[23Jun2025 23:15:29.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> SHITE
+[23Jun2025 23:15:44.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:59032] logged in with entity id 14541 at (-9.5, 79.0, -40.5)
+[23Jun2025 23:15:44.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
+[23Jun2025 23:15:47.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> nadies te dio permiso de hablar bro
+[23Jun2025 23:15:56.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> LO MSIENTO BRO
+[23Jun2025 23:15:56.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> quien es danna?
+[23Jun2025 23:17:06.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Suit Up]
+[23Jun2025 23:18:00.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Take Aim]
+[23Jun2025 23:18:44.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[23Jun2025 23:18:44.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[23Jun2025 23:19:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Cover Me with Diamonds]
+[23Jun2025 23:20:20.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [A Strange Grave Dust]
+[23Jun2025 23:21:07.592] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52885] logged in with entity id 16631 at (310.14006599607075, -47.0, -372.3728102353337)
+[23Jun2025 23:21:07.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[23Jun2025 23:22:09.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Knowledge of Death]
+[23Jun2025 23:22:09.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Ashes 'n Bones]
+[23Jun2025 23:22:33.429] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Timed out
+[23Jun2025 23:22:33.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
+[23Jun2025 23:24:59.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Knowledge of Death]
+[23Jun2025 23:24:59.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Ashes 'n Bones]
+[23Jun2025 23:27:55.481] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:53780] logged in with entity id 19594 at (-34.20370301763716, 76.0, -27.628073415618818)
+[23Jun2025 23:27:55.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
+[23Jun2025 23:28:04.571] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
+[23Jun2025 23:28:04.579] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved

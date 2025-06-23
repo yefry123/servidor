@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-23 23:18:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-06-23 22:48:39 +0000"
@@ -155,6 +161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-06-23 23:11:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-06-23 22:57:53 +0000"
@@ -209,15 +221,39 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-06-23 23:18:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-06-23 23:06:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-06-23 22:44:29 +0000"
     },
     "done": true
   },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-06-23 23:11:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-06-23 22:47:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-06-23 23:11:20 +0000"
     },
     "done": true
   },
@@ -275,6 +311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-06-23 23:18:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-06-23 22:41:35 +0000"
@@ -301,13 +343,22 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2025-06-23 22:58:59 +0000"
+      "minecraft:skeleton": "2025-06-23 22:58:59 +0000",
+      "minecraft:spider": "2025-06-23 23:09:43 +0000",
+      "minecraft:husk": "2025-06-23 23:20:27 +0000",
+      "minecraft:zombie": "2025-06-23 23:06:01 +0000"
     },
     "done": false
   },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2025-06-23 22:47:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-23 23:18:59 +0000"
     },
     "done": true
   },
@@ -320,6 +371,12 @@
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2025-06-23 22:39:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-06-23 23:11:20 +0000"
     },
     "done": true
   },
@@ -362,6 +419,18 @@
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2025-06-23 22:47:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-23 23:18:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-06-23 23:11:20 +0000"
     },
     "done": true
   },
@@ -416,6 +485,12 @@
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2025-06-23 22:57:28 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-06-23 23:11:35 +0000"
     },
     "done": true
   },
@@ -641,6 +716,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2025-06-23 23:15:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2025-06-23 22:39:07 +0000"
@@ -731,6 +812,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-06-23 23:04:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-06-23 22:41:35 +0000"
@@ -752,6 +839,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2025-06-23 22:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-06-23 23:11:20 +0000"
     },
     "done": true
   },
@@ -819,8 +912,11 @@
     "criteria": {
       "minecraft:taiga": "2025-06-23 22:42:42 +0000",
       "minecraft:frozen_river": "2025-06-23 22:40:56 +0000",
+      "minecraft:river": "2025-06-23 23:10:54 +0000",
+      "minecraft:snowy_plains": "2025-06-23 23:14:45 +0000",
       "minecraft:snowy_taiga": "2025-06-23 22:38:40 +0000",
-      "minecraft:forest": "2025-06-23 22:44:19 +0000"
+      "minecraft:forest": "2025-06-23 22:44:19 +0000",
+      "minecraft:plains": "2025-06-23 23:12:07 +0000"
     },
     "done": false
   },
@@ -917,6 +1013,18 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-06-23 22:57:53 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-06-23 23:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-06-23 23:11:20 +0000"
     },
     "done": true
   },
