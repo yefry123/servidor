@@ -937,6 +937,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_frost_resistance": {
+    "criteria": {
+      "has_magic_scroll": "2025-06-24 02:47:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-24 00:57:31 +0000"
@@ -970,6 +976,12 @@
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-24 01:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-24 02:42:56 +0000"
     },
     "done": true
   },
@@ -1018,6 +1030,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-24 01:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-06-24 02:40:51 +0000"
     },
     "done": true
   },
@@ -1402,6 +1420,12 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-06-24 01:29:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/magic_siphoner": {
+    "criteria": {
+      "coded_trigger": "2025-06-24 02:39:07 +0000"
     },
     "done": true
   },

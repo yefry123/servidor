@@ -501,3 +501,25 @@
 [24Jun2025 02:39:07.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [Magic Siphoner]
 [24Jun2025 02:39:13.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [What a Deal!]
 [24Jun2025 02:41:39.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Cover Me with Diamonds]
+[24Jun2025 02:42:10.078] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc was kicked for floating too long!
+[24Jun2025 02:42:10.131] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Flying is not enabled on this server
+[24Jun2025 02:42:10.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[24Jun2025 02:42:28.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:64422] logged in with entity id 166957 at (-980.8168060408574, 144.2758813897262, -882.6598141065224)
+[24Jun2025 02:42:28.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[24Jun2025 02:43:50.279] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162089, l='ServerLevel[world]', x=-956.05, y=161.01, z=-887.33] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:43:56.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/163347, l='ServerLevel[world]', x=-958.45, y=161.01, z=-887.89] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:43:59.530] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/163466, l='ServerLevel[world]', x=-934.57, y=161.01, z=-866.29] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:44:00.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/164851, l='ServerLevel[world]', x=-949.30, y=161.01, z=-885.84] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:44:01.829] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/165380, l='ServerLevel[world]', x=-949.30, y=161.01, z=-888.47] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:44:08.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/164852, l='ServerLevel[world]', x=-950.60, y=161.01, z=-890.66] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:44:13.332] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/164032, l='ServerLevel[world]', x=-932.17, y=161.01, z=-871.70] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:44:17.131] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/163713, l='ServerLevel[world]', x=-932.26, y=161.01, z=-870.39] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:44:40.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> ---_
+[24Jun2025 02:47:32.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [Powder Snow Walk]
+[24Jun2025 02:48:10.875] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/168754, l='ServerLevel[world]', x=-946.06, y=121.01, z=-878.87] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:49:15.677] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/150237, l='ServerLevel[world]', x=267.43, y=65.00, z=-1234.60] died, message: 'Nitwit was slain by Zombie'
+[24Jun2025 02:49:27.328] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/150236, l='ServerLevel[world]', x=282.73, y=64.00, z=-1229.68] died, message: 'Weaponsmith was slain by Zombie'
+[24Jun2025 02:51:29.779] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/169505, l='ServerLevel[world]', x=-942.50, y=121.01, z=-874.61] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:51:32.129] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/168518, l='ServerLevel[world]', x=-946.57, y=121.01, z=-880.06] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:51:39.431] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/168883, l='ServerLevel[world]', x=-938.58, y=121.01, z=-881.00] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:51:45.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/169506, l='ServerLevel[world]', x=-940.99, y=121.01, z=-879.42] died: Dinnerbone was shot by Dinnerbone
