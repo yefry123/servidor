@@ -850,7 +850,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:stray": "2025-06-24 00:52:58 +0000"
+      "minecraft:stray": "2025-06-24 00:52:58 +0000",
+      "minecraft:zombie": "2025-06-24 02:07:43 +0000"
     },
     "done": false
   },
@@ -902,6 +903,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-06-24 01:59:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-06-24 01:55:31 +0000"
@@ -911,6 +918,12 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-06-24 01:55:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-06-24 02:07:08 +0000"
     },
     "done": true
   },
