@@ -1,671 +1,173 @@
-[23Jun2025 22:17:38.937] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[23Jun2025 22:17:38.942] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[23Jun2025 22:17:40.615] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[23Jun2025 22:17:40.787] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[23Jun2025 22:17:41.338] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[23Jun2025 22:17:41.345] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[23Jun2025 22:17:41.350] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[23Jun2025 22:17:41.352] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[23Jun2025 22:17:41.589] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[23Jun2025 22:17:43.864] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23Jun2025 22:17:43.883] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[23Jun2025 22:17:53.089] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[23Jun2025 22:17:53.092] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[23Jun2025 22:17:54.296] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/servidor/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
-[23Jun2025 22:17:54.297] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.297] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enabledItems was corrected from null to its default, []. 
-[23Jun2025 22:17:54.302] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/servidor/servidor_minecraft/config/tombstone-common.toml is not correct. Correcting
-[23Jun2025 22:17:54.302] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.303] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.pvp_unlock_grave was corrected from null to its default, true. 
-[23Jun2025 22:17:54.303] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.restore_effects_on_death was corrected from null to its default, false. 
-[23Jun2025 22:17:54.303] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.loss_on_death_only_for_abandoned_grave was corrected from null to its default, true. 
-[23Jun2025 22:17:54.303] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.loss_on_death_only_for_stackable_items was corrected from null to its default, true. 
-[23Jun2025 22:17:54.304] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.prevent_death_outside_world_border was corrected from null to its default, true. 
-[23Jun2025 22:17:54.305] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.prevent_death_outside_build_height was corrected from null to its default, false. 
-[23Jun2025 22:17:54.306] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.allow_to_fill_existing_grave was corrected from null to its default, true. 
-[23Jun2025 22:17:54.306] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.nerf_ghostly_shape_teleport_with_key was corrected from null to its default, true. 
-[23Jun2025 22:17:54.307] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.sniffer_range was corrected from null to its default, 5. 
-[23Jun2025 22:17:54.307] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.chance_mob_on_grave_recovery was corrected from null to its default, 0. 
-[23Jun2025 22:17:54.307] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.pvp_stolen_xp was corrected from null to its default, 30. 
-[23Jun2025 22:17:54.307] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.chance_loss_on_death was corrected from null to its default, 0. 
-[23Jun2025 22:17:54.307] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.percent_loss_on_death was corrected from null to its default, 0. 
-[23Jun2025 22:17:54.307] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.no_grave_dimension was corrected from null to its default, []. 
-[23Jun2025 22:17:54.309] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.309] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_free_soul_receptacle was corrected from null to its default, 50. 
-[23Jun2025 22:17:54.309] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_plunder_player_grave was corrected from null to its default, -10. 
-[23Jun2025 22:17:54.309] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_exorcism_zombie_villager was corrected from null to its default, 20. 
-[23Jun2025 22:17:54.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_zombify_villager was corrected from null to its default, -20. 
-[23Jun2025 22:17:54.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_kill_decreasing_alignment was corrected from null to its default, -10. 
-[23Jun2025 22:17:54.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_kill_increasing_alignment was corrected from null to its default, 10. 
-[23Jun2025 22:17:54.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_tablet_of_cupidity was corrected from null to its default, -10. 
-[23Jun2025 22:17:54.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_pray_of_protection was corrected from null to its default, 20. 
-[23Jun2025 22:17:54.310] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_earthly_garden was corrected from null to its default, 10. 
-[23Jun2025 22:17:54.311] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alignment.points_kill_tamed_creature was corrected from null to its default, -10. 
-[23Jun2025 22:17:54.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.teleport_dim was corrected from null to its default, true. 
-[23Jun2025 22:17:54.314] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.knowledge_reduce_phantom_spawn was corrected from null to its default, true. 
-[23Jun2025 22:17:54.314] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.time_for_phantom_spawn was corrected from null to its default, 72000. 
-[23Jun2025 22:17:54.314] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cooldown_request_teleport was corrected from null to its default, -1. 
-[23Jun2025 22:17:54.314] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cooldown_teleport_death was corrected from null to its default, -1. 
-[23Jun2025 22:17:54.315] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.unhandled_beneficial_effects was corrected from null to its default, [astralsorcery:potiontimefreeze]. 
-[23Jun2025 22:17:54.315] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.unhandled_harmful_effects was corrected from null to its default, [minecraft:nausea]. 
-[23Jun2025 22:17:54.315] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.decrepitude_max_damage was corrected from null to its default, 2147483647. 
-[23Jun2025 22:17:54.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.handle_village_siege was corrected from null to its default, true. 
-[23Jun2025 22:17:54.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.log_siege_state was corrected from null to its default, false. 
-[23Jun2025 22:17:54.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.glowing_creature_test was corrected from null to its default, false. 
-[23Jun2025 22:17:54.317] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.allow_creative_players_for_siege was corrected from null to its default, true. 
-[23Jun2025 22:17:54.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.undead_wear_helm_in_siege was corrected from null to its default, false. 
-[23Jun2025 22:17:54.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.persistent_mob_in_siege was corrected from null to its default, false. 
-[23Jun2025 22:17:54.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.shuffle_players_for_siege was corrected from null to its default, true. 
-[23Jun2025 22:17:54.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.siege_chance was corrected from null to its default, 10. 
-[23Jun2025 22:17:54.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.siege_max_creature was corrected from null to its default, 20. 
-[23Jun2025 22:17:54.318] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key village_siege.delay_siege_test was corrected from null to its default, 200. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.can_recycle_damaged_item was corrected from null to its default, true. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.denied_item_to_recycle was corrected from null to its default, []. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.can_disenchant_enchanted_book was corrected from null to its default, false. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_search_outside_world was corrected from null to its default, true. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_modded_structure was corrected from null to its default, true. 
-[23Jun2025 22:17:54.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_denied_structures was corrected from null to its default, []. 
-[23Jun2025 22:17:54.322] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.lost_tablet_denied_worlds was corrected from null to its default, []. 
-[23Jun2025 22:17:54.322] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.duration_voodoo_poppet_effects was corrected from null to its default, 60. 
-[23Jun2025 22:17:54.330] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.330] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.can_replace_grave_plate was corrected from null to its default, true. 
-[23Jun2025 22:17:54.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.allow_grave_gardian was corrected from null to its default, true. 
-[23Jun2025 22:17:54.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.distance_between_grave_guardian was corrected from null to its default, 100. 
-[23Jun2025 22:17:54.332] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.restock_time_grave_guardian was corrected from null to its default, 60. 
-[23Jun2025 22:17:54.334] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.time_soul was corrected from null to its default, 30. 
-[23Jun2025 22:17:54.335] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.chance_soul was corrected from null to its default, 100. 
-[23Jun2025 22:17:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.recovery_player_enable was corrected from null to its default, true. 
-[23Jun2025 22:17:54.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.backup_on_death was corrected from null to its default, true. 
-[23Jun2025 22:17:54.340] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.recovery_player_timer was corrected from null to its default, 19. 
-[23Jun2025 22:17:54.340] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.recovery_player_max_saves was corrected from null to its default, 15. 
-[23Jun2025 22:17:54.340] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recovery.log_auto_backup was corrected from null to its default, false. 
-[23Jun2025 22:17:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.max_xp_lost_page was corrected from null to its default, 2000. 
-[23Jun2025 22:17:54.343] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.denied_modid_for_equipment was corrected from null to its default, [tombstone]. 
-[23Jun2025 22:17:54.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.only_vanilla_for_equipment was corrected from null to its default, false. 
-[23Jun2025 22:17:54.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.curio_auto_equip was corrected from null to its default, true. 
-[23Jun2025 22:17:54.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.curio_bundle_support was corrected from null to its default, true. 
-[23Jun2025 22:17:54.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.curio_magic_book_support was corrected from null to its default, true. 
-[23Jun2025 22:17:54.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.keep_cosmetic_armor was corrected from null to its default, true. 
-[23Jun2025 22:17:54.346] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.preserve_effects_on_return_end_conquered was corrected from null to its default, true. 
-[23Jun2025 22:17:54.350] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.350] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_halloween was corrected from null to its default, true. 
-[23Jun2025 22:17:54.350] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_christmas was corrected from null to its default, true. 
-[23Jun2025 22:17:54.350] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_easter was corrected from null to its default, true. 
-[23Jun2025 22:17:54.351] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.allow_april_fools was corrected from null to its default, true. 
-[23Jun2025 22:17:54.351] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key special_events.force_special_event was corrected from null to its default, NONE. 
-[23Jun2025 22:17:54.355] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/servidor/servidor_minecraft/config/sophisticatedbackpacks-common.toml is not correct. Correcting
-[23Jun2025 22:17:54.356] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:17:54.356] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
-[23Jun2025 22:17:54.844] [main/INFO] [journeymap/]: Initializing Packet Registries
-[23Jun2025 22:17:55.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[23Jun2025 22:17:55.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.8 Target: null
-[23Jun2025 22:17:55.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23Jun2025 22:17:55.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[23Jun2025 22:17:55.774] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[23Jun2025 22:17:55.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 5.10.3 Target: null
-[23Jun2025 22:17:57.389] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23Jun2025 22:17:58.454] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
-[23Jun2025 22:17:58.454] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
-[23Jun2025 22:18:00.983] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/servidor/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
-[23Jun2025 22:18:01.021] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[23Jun2025 22:18:01.140] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1548 advancements
-[23Jun2025 22:18:01.875] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[23Jun2025 22:18:01.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23Jun2025 22:18:01.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23Jun2025 22:18:01.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23Jun2025 22:18:02.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23Jun2025 22:18:02.040] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[23Jun2025 22:18:02.152] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23Jun2025 22:18:02.152] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23Jun2025 22:18:02.153] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23Jun2025 22:18:02.153] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23Jun2025 22:18:02.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/servidor/servidor_minecraft/config/tombstone-server.toml is not correct. Correcting
-[23Jun2025 22:18:02.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.decay_time was corrected from null to its default, -1. 
-[23Jun2025 22:18:02.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.xp_loss_on_death was corrected from null to its default, 95. 
-[23Jun2025 22:18:02.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key player_death.ghostly_shape_duration was corrected from null to its default, 120. 
-[23Jun2025 22:18:02.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_spectral_bite was corrected from null to its default, true. 
-[23Jun2025 22:18:02.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_soulbound was corrected from null to its default, true. 
-[23Jun2025 22:18:02.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_magic_siphon was corrected from null to its default, true. 
-[23Jun2025 22:18:02.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_plague_bringer was corrected from null to its default, true. 
-[23Jun2025 22:18:02.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_curse_of_bones was corrected from null to its default, true. 
-[23Jun2025 22:18:02.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_blessing was corrected from null to its default, true. 
-[23Jun2025 22:18:02.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_frostbite was corrected from null to its default, true. 
-[23Jun2025 22:18:02.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_spectral_conjurer was corrected from null to its default, true. 
-[23Jun2025 22:18:02.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_incurable_wounds was corrected from null to its default, true. 
-[23Jun2025 22:18:02.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_decrepitude was corrected from null to its default, true. 
-[23Jun2025 22:18:02.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_sanctified was corrected from null to its default, true. 
-[23Jun2025 22:18:02.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.enable_enchantment_ruthless_strike was corrected from null to its default, true. 
-[23Jun2025 22:18:02.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.soulbound_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.spectral_bite_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.magic_siphon_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.plague_bringer_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.curse_of_bones_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.blessing_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.frostbite_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.spectral_conjurer_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.incurable_wounds_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.decrepitude_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.sanctified_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.ruthless_strike_enchanting_table was corrected from null to its default, true. 
-[23Jun2025 22:18:02.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_earthly_garden was corrected from null to its default, true. 
-[23Jun2025 22:18:02.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_bait was corrected from null to its default, true. 
-[23Jun2025 22:18:02.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_frostbite was corrected from null to its default, true. 
-[23Jun2025 22:18:02.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_darkness was corrected from null to its default, true. 
-[23Jun2025 22:18:02.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_discretion was corrected from null to its default, true. 
-[23Jun2025 22:18:02.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key potions.allow_restoration was corrected from null to its default, true. 
-[23Jun2025 22:18:02.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_alchemist was corrected from null to its default, true. 
-[23Jun2025 22:18:02.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_alchemist was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_concentration was corrected from null to its default, true. 
-[23Jun2025 22:18:02.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_concentration was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_jailer was corrected from null to its default, true. 
-[23Jun2025 22:18:02.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_jailer was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_memento_mori was corrected from null to its default, true. 
-[23Jun2025 22:18:02.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_memento_mori was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_necromancer was corrected from null to its default, true. 
-[23Jun2025 22:18:02.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_necromancer was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_rune_inscriber was corrected from null to its default, true. 
-[23Jun2025 22:18:02.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_rune_inscriber was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_scribe was corrected from null to its default, true. 
-[23Jun2025 22:18:02.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_scribe was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_shadow_walker was corrected from null to its default, true. 
-[23Jun2025 22:18:02.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_shadow_walker was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_treasure_seeker was corrected from null to its default, true. 
-[23Jun2025 22:18:02.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_treasure_seeker was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_witch_doctor was corrected from null to its default, true. 
-[23Jun2025 22:18:02.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_witch_doctor was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_gladiator was corrected from null to its default, true. 
-[23Jun2025 22:18:02.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_gladiator was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.allow_priest was corrected from null to its default, true. 
-[23Jun2025 22:18:02.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.level_max_priest was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowed_perks.cooldown_reset_perk was corrected from null to its default, 120. 
-[23Jun2025 22:18:02.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.always_enchant_grave_key was corrected from null to its default, false. 
-[23Jun2025 22:18:02.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.disable_enchanted_grave_key_recipe was corrected from null to its default, false. 
-[23Jun2025 22:18:02.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.scroll_duration was corrected from null to its default, 12000. 
-[23Jun2025 22:18:02.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.scroll_of_knowledge_loss was corrected from null to its default, 0. 
-[23Jun2025 22:18:02.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key magic_item.tablet_cooldown was corrected from null to its default, 300. 
-[23Jun2025 22:18:02.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key decorative_grave.prayer_cooldown was corrected from null to its default, 120. 
-[23Jun2025 22:18:02.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_voodoo_poppet was corrected from null to its default, true. 
-[23Jun2025 22:18:02.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_receptacle_of_familiar was corrected from null to its default, true. 
-[23Jun2025 22:18:02.209] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_disenchantment was corrected from null to its default, true. 
-[23Jun2025 22:18:02.210] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_preservation was corrected from null to its default, true. 
-[23Jun2025 22:18:02.210] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_grave_key was corrected from null to its default, true. 
-[23Jun2025 22:18:02.211] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_knowledge was corrected from null to its default, true. 
-[23Jun2025 22:18:02.212] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_recall was corrected from null to its default, true. 
-[23Jun2025 22:18:02.212] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_home was corrected from null to its default, true. 
-[23Jun2025 22:18:02.213] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_assistance was corrected from null to its default, true. 
-[23Jun2025 22:18:02.214] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_guard was corrected from null to its default, true. 
-[23Jun2025 22:18:02.214] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_tablet_of_cupidity was corrected from null to its default, true. 
-[23Jun2025 22:18:02.214] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_unstable_intangibility was corrected from null to its default, true. 
-[23Jun2025 22:18:02.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_feather_fall was corrected from null to its default, true. 
-[23Jun2025 22:18:02.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_purification was corrected from null to its default, true. 
-[23Jun2025 22:18:02.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_true_sight was corrected from null to its default, true. 
-[23Jun2025 22:18:02.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_lost_tablet was corrected from null to its default, true. 
-[23Jun2025 22:18:02.217] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_reach was corrected from null to its default, true. 
-[23Jun2025 22:18:02.217] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_lightning_resistance was corrected from null to its default, true. 
-[23Jun2025 22:18:02.217] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_frost_resistance was corrected from null to its default, true. 
-[23Jun2025 22:18:02.217] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_aquatic_life was corrected from null to its default, true. 
-[23Jun2025 22:18:02.218] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_scroll_of_mercy was corrected from null to its default, true. 
-[23Jun2025 22:18:02.219] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_dust_of_vanishing was corrected from null to its default, true. 
-[23Jun2025 22:18:02.219] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_dust_of_frost was corrected from null to its default, true. 
-[23Jun2025 22:18:02.219] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_enchanted_bundle was corrected from null to its default, true. 
-[23Jun2025 22:18:02.219] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_recycling was corrected from null to its default, true. 
-[23Jun2025 22:18:02.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_repairing was corrected from null to its default, true. 
-[23Jun2025 22:18:02.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_magic_impregnation was corrected from null to its default, true. 
-[23Jun2025 22:18:02.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_scribe was corrected from null to its default, true. 
-[23Jun2025 22:18:02.220] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_soulbound was corrected from null to its default, true. 
-[23Jun2025 22:18:02.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_book_of_oblivion was corrected from null to its default, true. 
-[23Jun2025 22:18:02.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_smoke_ball was corrected from null to its default, true. 
-[23Jun2025 22:18:02.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_seeker_rod was corrected from null to its default, true. 
-[23Jun2025 22:18:02.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_christmas_hat was corrected from null to its default, true. 
-[23Jun2025 22:18:02.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_bag_of_seeds was corrected from null to its default, true. 
-[23Jun2025 22:18:02.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_magic_scroll was corrected from null to its default, true. 
-[23Jun2025 22:18:02.222] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_familiar was corrected from null to its default, true. 
-[23Jun2025 22:18:02.223] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_merchant was corrected from null to its default, true. 
-[23Jun2025 22:18:02.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_prayer was corrected from null to its default, true. 
-[23Jun2025 22:18:02.224] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowedMagicItems.allow_gemstone_of_guardian was corrected from null to its default, true. 
-[23Jun2025 22:18:02.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.fix_repair_cost_zero was corrected from null to its default, true. 
-[23Jun2025 22:18:02.231] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/sophisticatedbackpacks-server.toml is not correct. Correcting
-[23Jun2025 22:18:02.232] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.232] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
-[23Jun2025 22:18:02.232] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
-[23Jun2025 22:18:02.233] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
-[23Jun2025 22:18:02.233] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
-[23Jun2025 22:18:02.233] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.233] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
-[23Jun2025 22:18:02.234] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[23Jun2025 22:18:02.234] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.234] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
-[23Jun2025 22:18:02.234] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[23Jun2025 22:18:02.235] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
-[23Jun2025 22:18:02.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
-[23Jun2025 22:18:02.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
-[23Jun2025 22:18:02.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
-[23Jun2025 22:18:02.237] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.238] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.238] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
-[23Jun2025 22:18:02.240] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
-[23Jun2025 22:18:02.240] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.241] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.241] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.242] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.243] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.243] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.244] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.245] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.246] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.251] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.251] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.251] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.251] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.252] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.252] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.252] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.252] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.252] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.253] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.254] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.259] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
-[23Jun2025 22:18:02.267] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.267] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
-[23Jun2025 22:18:02.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
-[23Jun2025 22:18:02.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[23Jun2025 22:18:02.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
-[23Jun2025 22:18:02.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[23Jun2025 22:18:02.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
-[23Jun2025 22:18:02.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.280] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.280] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.280] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[23Jun2025 22:18:02.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.281] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[23Jun2025 22:18:02.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.283] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.284] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.284] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[23Jun2025 22:18:02.287] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.287] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
-[23Jun2025 22:18:02.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
-[23Jun2025 22:18:02.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
-[23Jun2025 22:18:02.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
-[23Jun2025 22:18:02.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
-[23Jun2025 22:18:02.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[23Jun2025 22:18:02.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
-[23Jun2025 22:18:02.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[23Jun2025 22:18:02.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
-[23Jun2025 22:18:02.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
-[23Jun2025 22:18:02.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.numberOfSlots was corrected from null to its default, 12. 
-[23Jun2025 22:18:02.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.slotsInRow was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.alchemyUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.alchemyUpgrade.filterSlots was corrected from null to its default, 4. 
-[23Jun2025 22:18:02.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedAlchemyUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedAlchemyUpgrade.filterSlots was corrected from null to its default, 8. 
-[23Jun2025 22:18:02.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
-[23Jun2025 22:18:02.302] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
-[23Jun2025 22:18:02.302] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
-[23Jun2025 22:18:02.303] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
-[23Jun2025 22:18:02.303] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
-[23Jun2025 22:18:02.304] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
-[23Jun2025 22:18:02.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
-[23Jun2025 22:18:02.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
-[23Jun2025 22:18:02.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
-[23Jun2025 22:18:02.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
-[23Jun2025 22:18:02.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
-[23Jun2025 22:18:02.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
-[23Jun2025 22:18:02.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
-[23Jun2025 22:18:02.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
-[23Jun2025 22:18:02.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
-[23Jun2025 22:18:02.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [stack_upgrades|3, jukebox_upgrades|1, furnace_upgrades|1]. 
-[23Jun2025 22:18:02.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
-[23Jun2025 22:18:02.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
-[23Jun2025 22:18:02.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
-[23Jun2025 22:18:02.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
-[23Jun2025 22:18:02.312] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
-[23Jun2025 22:18:02.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
-[23Jun2025 22:18:02.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[23Jun2025 22:18:02.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
-[23Jun2025 22:18:02.323] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
-[23Jun2025 22:18:02.324] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[23Jun2025 22:18:02.324] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[23Jun2025 22:18:02.326] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[23Jun2025 22:18:02.364] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23Jun2025 22:18:06.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23Jun2025 22:18:09.345] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.346] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.347] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.348] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.348] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.349] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.350] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:09.522] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Jun2025 22:18:10.024] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[23Jun2025 22:18:10.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[23Jun2025 22:18:11.030] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[23Jun2025 22:18:13.158] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[23Jun2025 22:18:13.158] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[23Jun2025 22:18:13.159] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[23Jun2025 22:18:13.159] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[23Jun2025 22:18:13.678] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[23Jun2025 22:18:14.026] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[23Jun2025 22:18:14.524] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[23Jun2025 22:18:15.088] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[23Jun2025 22:18:15.522] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[23Jun2025 22:18:16.022] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[23Jun2025 22:18:16.532] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[23Jun2025 22:18:17.049] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[23Jun2025 22:18:17.523] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[23Jun2025 22:18:18.022] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[23Jun2025 22:18:18.529] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[23Jun2025 22:18:19.025] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[23Jun2025 22:18:19.520] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[23Jun2025 22:18:20.028] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[23Jun2025 22:18:20.529] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[23Jun2025 22:18:21.023] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[23Jun2025 22:18:21.489] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15470 ms
-[23Jun2025 22:18:21.490] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.317s)! For help, type "help"
-[23Jun2025 22:18:21.518] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[23Jun2025 22:18:21.534] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.global.config
-[23Jun2025 22:18:21.534] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.global.config
-[23Jun2025 22:18:21.546] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.default.config
-[23Jun2025 22:18:21.547] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.default.config
-[23Jun2025 22:18:21.549] [Server thread/INFO] [journeymap/]: minecraft~overworld (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~overworld.config
-[23Jun2025 22:18:21.550] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~overworld.config
-[23Jun2025 22:18:21.557] [Server thread/INFO] [journeymap/]: minecraft~the_end (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_end.config
-[23Jun2025 22:18:21.557] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_end.config
-[23Jun2025 22:18:21.559] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_nether.config
-[23Jun2025 22:18:21.560] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
-[23Jun2025 22:19:52.201] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:54417] logged in with entity id 245 at (-3.5, 67.0, -35.5)
-[23Jun2025 22:19:52.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[23Jun2025 22:20:29.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[23Jun2025 22:20:29.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: game mode cretive yefry<--[HERE]
-[23Jun2025 22:21:18.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set yefry's game mode to Creative Mode
-[23Jun2025 22:23:00.518] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
-[23Jun2025 22:23:00.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
-[23Jun2025 22:32:21.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
-[23Jun2025 22:32:36.972] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:54807] logged in with entity id 665 at (-10.628618923832073, 68.0, -34.808921335497075)
-[23Jun2025 22:32:36.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[23Jun2025 22:32:51.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set yefry's game mode to Survival Mode
-[23Jun2025 22:37:14.367] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
-[23Jun2025 22:37:14.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
-[23Jun2025 22:37:39.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52158] logged in with entity id 1139 at (8.5, 69.0, -37.5)
-[23Jun2025 22:37:39.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[23Jun2025 22:37:41.870] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63208] logged in with entity id 1194 at (-3.5, 67.0, -37.5)
-[23Jun2025 22:37:41.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[23Jun2025 22:38:39.619] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:60325] logged in with entity id 1313 at (-7.5, 75.0, -31.5)
-[23Jun2025 22:38:39.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
-[23Jun2025 22:39:26.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Stone Age]
-[23Jun2025 22:39:47.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Stone Age]
-[23Jun2025 22:39:52.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Getting an Upgrade]
-[23Jun2025 22:40:09.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Getting an Upgrade]
-[23Jun2025 22:41:35.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Stone Age]
-[23Jun2025 22:41:49.046] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
-[23Jun2025 22:41:49.046] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
-[23Jun2025 22:42:29.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Getting an Upgrade]
-[23Jun2025 22:45:34.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Acquire Hardware]
-[23Jun2025 22:47:57.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Acquire Hardware]
-[23Jun2025 22:48:15.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Monster Hunter]
-[23Jun2025 22:48:39.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Isn't It Iron Pick]
-[23Jun2025 22:48:52.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Monster Hunter]
-[23Jun2025 22:49:51.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Suit Up]
-[23Jun2025 22:53:22.776] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:51699] logged in with entity id 5019 at (-4.5, 67.0, -23.5)
-[23Jun2025 22:53:22.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
-[23Jun2025 22:55:14.892] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
-[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
-[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
-[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
-[23Jun2025 22:55:14.894] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
-[23Jun2025 22:55:14.906] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-281, y=-50, z=-279}
-[23Jun2025 22:55:14.907] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-281, y=-57, z=-280}
-[23Jun2025 22:55:14.941] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
-[23Jun2025 22:55:14.942] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
-[23Jun2025 22:55:14.942] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
-[23Jun2025 22:55:14.943] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
-[23Jun2025 22:55:14.957] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-283, y=-56, z=-275}
-[23Jun2025 22:55:22.692] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=122, y=64, z=-133} BlockPos{x=122, y=66, z=-135}
-[23Jun2025 22:55:32.955] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
-[23Jun2025 22:55:32.955] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
-[23Jun2025 22:55:32.956] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
-[23Jun2025 22:55:32.956] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
-[23Jun2025 22:55:32.956] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
-[23Jun2025 22:55:32.957] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
-[23Jun2025 22:55:32.958] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
-[23Jun2025 22:55:32.968] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-289, y=-57, z=-281}
-[23Jun2025 22:55:32.968] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-287, y=-56, z=-283}
-[23Jun2025 22:55:32.968] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-287, y=-57, z=-283}
-[23Jun2025 22:55:39.406] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
-[23Jun2025 22:55:39.407] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
-[23Jun2025 22:55:39.407] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
-[23Jun2025 22:55:39.407] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
-[23Jun2025 22:55:53.426] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Disconnected
-[23Jun2025 22:55:53.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
-[23Jun2025 22:57:53.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Diamonds!]
-[23Jun2025 22:58:56.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Isn't It Iron Pick]
-[23Jun2025 22:58:59.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Monster Hunter]
-[23Jun2025 22:58:59.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [A Strange Grave Dust]
-[23Jun2025 22:59:37.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Suit Up]
-[23Jun2025 23:00:13.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Not Today, Thank You]
-[23Jun2025 23:02:14.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Cover Me with Diamonds]
-[23Jun2025 23:02:32.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Not Today, Thank You]
-[23Jun2025 23:02:36.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Acquire Hardware]
-[23Jun2025 23:02:56.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Isn't It Iron Pick]
-[23Jun2025 23:03:00.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Diamonds!]
-[23Jun2025 23:05:14.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Diamonds!]
-[23Jun2025 23:06:29.877] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
-[23Jun2025 23:06:29.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[23Jun2025 23:06:29.942] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[23Jun2025 23:06:47.895] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63387] logged in with entity id 10255 at (10.418774469230996, 6.0, -231.69999998807907)
-[23Jun2025 23:06:47.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[23Jun2025 23:09:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Sweet Dreams]
-[23Jun2025 23:09:04.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> EWAS
-[23Jun2025 23:11:35.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Knowledge of Death]
-[23Jun2025 23:11:35.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Ashes 'n Bones]
-[23Jun2025 23:11:44.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Knowledge raises the soul]
-[23Jun2025 23:11:48.675] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/10293, l='ServerLevel[world]', x=-3.02, y=128.00, z=-374.13] died, message: 'Cleric was slain by Zombie'
-[23Jun2025 23:14:02.581] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:52932] logged in with entity id 13563 at (-69.50231533099321, 80.0, -49.042190769219076)
-[23Jun2025 23:14:02.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
-[23Jun2025 23:15:17.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> hola
-[23Jun2025 23:15:24.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Ice Bucket Challenge]
-[23Jun2025 23:15:29.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> SHITE
-[23Jun2025 23:15:44.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:59032] logged in with entity id 14541 at (-9.5, 79.0, -40.5)
-[23Jun2025 23:15:44.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
-[23Jun2025 23:15:47.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> nadies te dio permiso de hablar bro
-[23Jun2025 23:15:56.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> LO MSIENTO BRO
-[23Jun2025 23:15:56.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> quien es danna?
-[23Jun2025 23:17:06.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Suit Up]
-[23Jun2025 23:18:00.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Take Aim]
-[23Jun2025 23:18:44.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
-[23Jun2025 23:18:44.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[23Jun2025 23:19:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Cover Me with Diamonds]
-[23Jun2025 23:20:20.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [A Strange Grave Dust]
-[23Jun2025 23:21:07.592] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52885] logged in with entity id 16631 at (310.14006599607075, -47.0, -372.3728102353337)
-[23Jun2025 23:21:07.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[23Jun2025 23:22:09.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Knowledge of Death]
-[23Jun2025 23:22:09.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Ashes 'n Bones]
-[23Jun2025 23:22:33.429] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Timed out
-[23Jun2025 23:22:33.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
-[23Jun2025 23:24:59.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Knowledge of Death]
-[23Jun2025 23:24:59.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Ashes 'n Bones]
-[23Jun2025 23:27:55.481] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:53780] logged in with entity id 19594 at (-34.20370301763716, 76.0, -27.628073415618818)
-[23Jun2025 23:27:55.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
-[23Jun2025 23:28:04.571] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[23Jun2025 23:28:04.579] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[23Jun2025 23:28:15.134] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:64631] logged in with entity id 19800 at (-8.300000011920929, 68.0, -35.35392488799556)
-[23Jun2025 23:28:15.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[23Jun2025 23:28:17.676] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
-[23Jun2025 23:28:17.677] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
-[23Jun2025 23:28:35.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices was shot by Skeleton
-[23Jun2025 23:28:35.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Your First Grave]
-[23Jun2025 23:28:53.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has reached the goal [Here They Come]
-[23Jun2025 23:29:24.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Stone Age]
-[23Jun2025 23:29:43.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Getting an Upgrade]
-[23Jun2025 23:29:54.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Stone Age]
-[23Jun2025 23:29:58.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Sweet Dreams]
-[23Jun2025 23:30:04.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> ee
-[23Jun2025 23:30:12.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> e
-[23Jun2025 23:30:36.576] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
-[23Jun2025 23:30:36.577] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
-[23Jun2025 23:31:06.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Stone Age]
-[23Jun2025 23:31:11.595] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
-[23Jun2025 23:31:11.596] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
-[23Jun2025 23:31:43.081] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[23Jun2025 23:31:43.083] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[23Jun2025 23:31:53.727] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
-[23Jun2025 23:31:53.728] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
-[23Jun2025 23:32:03.478] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
-[23Jun2025 23:32:03.480] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
-[23Jun2025 23:32:43.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry was shot by Skeleton
-[23Jun2025 23:32:43.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Your First Grave]
-[23Jun2025 23:32:47.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices was shot by Skeleton
-[23Jun2025 23:33:03.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna was shot by Skeleton
-[23Jun2025 23:33:03.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Your First Grave]
-[23Jun2025 23:33:16.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Monster Hunter]
-[23Jun2025 23:33:16.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [A Strange Grave Dust]
-[23Jun2025 23:34:25.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> ole hable
-[23Jun2025 23:34:38.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Getting an Upgrade]
-[23Jun2025 23:35:58.502] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[23Jun2025 23:35:58.503] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[23Jun2025 23:36:19.215] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[23Jun2025 23:36:19.244] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[23Jun2025 23:36:51.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> ole ese discord no se me escucha
-[23Jun2025 23:37:07.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> comida
-[23Jun2025 23:37:41.779] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24298, l='ServerLevel[world]', x=83.62, y=110.00, z=-963.10] died, message: 'Villager was shot by Pillager'
-[23Jun2025 23:38:19.584] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24299, l='ServerLevel[world]', x=109.44, y=114.00, z=-992.81] died, message: 'Villager was shot by Pillager'
-[23Jun2025 23:38:31.778] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[23Jun2025 23:38:31.780] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[23Jun2025 23:40:37.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> que
-[23Jun2025 23:40:42.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> ahora halbo
-[23Jun2025 23:40:50.852] [Worker-Main-34/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:50.853] [Worker-Main-34/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:54.870] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:54.870] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:54.882] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:54.883] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:54.905] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:54.906] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:40:56.587] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6676ms or 133 ticks behind
-[23Jun2025 23:40:56.646] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 8.766756019049076,0.7247629905310191,5.014203128229383
-[23Jun2025 23:42:26.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> no
-[23Jun2025 23:42:29.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> dije yo
-[23Jun2025 23:44:27.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> fabio acepte
-[23Jun2025 23:46:16.042] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-217, y=100, z=-1240} BlockPos{x=-217, y=99, z=-1239}
-[23Jun2025 23:46:48.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Not Today, Thank You]
-[23Jun2025 23:47:44.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Monster Hunter]
-[23Jun2025 23:48:54.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Getting an Upgrade]
-[23Jun2025 23:49:58.062] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[23Jun2025 23:49:58.081] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[23Jun2025 23:51:44.523] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
-[23Jun2025 23:51:44.529] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
-[23Jun2025 23:53:35.949] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:36.209] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:36.305] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:36.382] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:36.415] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:36.698] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:37.629] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:37.629] [Worker-Main-23/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:37.874] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:37.900] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:37.926] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:38.069] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:38.130] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[23Jun2025 23:53:38.247] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:38.249] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:38.252] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:38.253] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:38.265] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:38.266] [Worker-Main-35/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[23Jun2025 23:53:38.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3819ms or 76 ticks behind
-[23Jun2025 23:53:38.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc moved too quickly! 0.33940145142187816,-2.7531999805212024,-9.624588563749256
-[23Jun2025 23:53:43.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Timed out
-[23Jun2025 23:53:43.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[23Jun2025 23:53:57.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63712] logged in with entity id 33433 at (244.1021269311854, 77.0, -191.4501328918647)
-[23Jun2025 23:53:57.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[23Jun2025 23:54:50.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has reached the goal [Bone Crusher]
-[23Jun2025 23:54:57.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
-[23Jun2025 23:56:05.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Knowledge of Death]
-[23Jun2025 23:56:05.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Funeral Theft]
-[23Jun2025 23:56:26.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
-[23Jun2025 23:56:26.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[23Jun2025 23:56:56.548] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:63732] logged in with entity id 34787 at (277.3416816230706, 79.24918707874468, -350.9803884026709)
-[23Jun2025 23:56:56.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[23Jun2025 23:57:23.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Knowledge raises the soul]
+[24Jun2025 00:04:29.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Timed out
+[24Jun2025 00:04:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[24Jun2025 00:06:39.293] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:53555] logged in with entity id 40737 at (-145.77541908083694, 68.0, -2613.3456484192407)
+[24Jun2025 00:06:39.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[24Jun2025 00:07:20.424] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:07:20.433] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:08:11.224] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
+[24Jun2025 00:08:11.235] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[24Jun2025 00:08:15.824] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:08:15.834] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:09:11.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has reached the goal [Strong or Careful]
+[24Jun2025 00:09:11.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc was slain by Zombie
+[24Jun2025 00:09:11.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Your First Grave]
+[24Jun2025 00:09:15.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna was slain by Zombie
+[24Jun2025 00:09:33.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Sweet Dreams]
+[24Jun2025 00:09:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Sweet Dreams]
+[24Jun2025 00:09:53.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> www a
+[24Jun2025 00:10:47.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [Sweet Dreams]
+[24Jun2025 00:11:19.429] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[24Jun2025 00:11:19.429] [Worker-Main-23/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[24Jun2025 00:11:21.823] [Worker-Main-24/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[24Jun2025 00:11:21.829] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[24Jun2025 00:11:21.830] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[24Jun2025 00:11:21.830] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[24Jun2025 00:11:21.855] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[24Jun2025 00:11:21.856] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[24Jun2025 00:11:30.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 4.165840922339875,-1.252203340253729,-9.361115038340358
+[24Jun2025 00:11:48.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! -0.6151599558307481,0.5800000131130219,-10.1383366429759
+[24Jun2025 00:12:01.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [A Seedy Place]
+[24Jun2025 00:12:17.797] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 7.336979404806515,-1.9139059206844848,-6.762402666699927
+[24Jun2025 00:12:19.417] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[24Jun2025 00:12:19.418] [Worker-Main-22/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[24Jun2025 00:12:19.877] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[24Jun2025 00:12:19.878] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[24Jun2025 00:12:19.878] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[24Jun2025 00:12:21.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
+[24Jun2025 00:12:21.385] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
+[24Jun2025 00:12:21.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[24Jun2025 00:12:23.118] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[24Jun2025 00:12:23.131] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
+[24Jun2025 00:12:23.131] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
+[24Jun2025 00:12:23.131] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
+[24Jun2025 00:12:23.131] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
+[24Jun2025 00:12:23.131] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
+[24Jun2025 00:12:23.132] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
+[24Jun2025 00:12:23.138] [Worker-Main-24/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[24Jun2025 00:12:23.143] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[24Jun2025 00:12:32.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Sweet Dreams]
+[24Jun2025 00:12:33.571] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Timed out
+[24Jun2025 00:12:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
+[24Jun2025 00:12:40.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [A Strange Grave Dust]
+[24Jun2025 00:12:40.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Ashes 'n Bones]
+[24Jun2025 00:12:48.085] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:65301] logged in with entity id 46708 at (2.5, 63.0, -3694.5)
+[24Jun2025 00:12:48.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
+[24Jun2025 00:13:22.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> t
+[24Jun2025 00:19:58.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Where Is The Stone Pen?]
+[24Jun2025 00:20:31.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [The Lighthouse]
+[24Jun2025 00:21:24.080] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3468ms or 69 ticks behind
+[24Jun2025 00:21:31.233] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna lost connection: Disconnected
+[24Jun2025 00:21:31.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna left the game
+[24Jun2025 00:22:43.894] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:62439] logged in with entity id 56798 at (29.401447915964617, 67.0, -251.97708080476633)
+[24Jun2025 00:22:43.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
+[24Jun2025 00:23:14.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Acquire Hardware]
+[24Jun2025 00:24:32.696] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna lost connection: Disconnected
+[24Jun2025 00:24:32.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna left the game
+[24Jun2025 00:24:39.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:62552] logged in with entity id 59563 at (-124.6167517864306, 73.0, -195.56197225158792)
+[24Jun2025 00:24:39.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
+[24Jun2025 00:24:47.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Acquire Hardware]
+[24Jun2025 00:25:12.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Funeral Theft]
+[24Jun2025 00:25:18.691] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
+[24Jun2025 00:25:18.692] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[24Jun2025 00:25:29.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has reached the goal [Strong or Careful]
+[24Jun2025 00:25:29.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx fell from a high place
+[24Jun2025 00:25:29.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Your First Grave]
+[24Jun2025 00:25:31.230] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
+[24Jun2025 00:25:31.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
+[24Jun2025 00:25:55.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> buena bro
+[24Jun2025 00:25:57.453] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:56777] logged in with entity id 61450 at (-14.40690247365524, 71.24918707874468, -3645.152375360055)
+[24Jun2025 00:25:57.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[24Jun2025 00:26:27.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> shite
+[24Jun2025 00:26:58.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> como va la rata albina
+[24Jun2025 00:27:12.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Timed out
+[24Jun2025 00:27:12.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[24Jun2025 00:27:55.744] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@60620fd5[id=<null>,name=ShonA,properties={},legacy=false] (/172.23.68.227:56793) lost connection: Timed out
+[24Jun2025 00:28:11.437] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:56795] logged in with entity id 64127 at (-33.117616316531816, 80.0, -3535.191986507385)
+[24Jun2025 00:28:11.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[24Jun2025 00:30:24.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Isn't It Iron Pick]
+[24Jun2025 00:31:53.027] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:31:53.038] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:32:41.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Cover Me with Diamonds]
+[24Jun2025 00:32:55.932] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
+[24Jun2025 00:32:55.933] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
+[24Jun2025 00:33:25.636] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:65109] logged in with entity id 69660 at (39.93297769845174, 121.0, -750.313089998769)
+[24Jun2025 00:33:25.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
+[24Jun2025 00:33:30.076] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:33:30.093] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:33:49.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has reached the goal [Strong or Careful]
+[24Jun2025 00:33:49.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices burned to death
+[24Jun2025 00:34:30.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna was slain by Zombie
+[24Jun2025 00:34:37.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Take Aim]
+[24Jun2025 00:35:00.693] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[24Jun2025 00:35:00.693] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[24Jun2025 00:35:00.693] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[24Jun2025 00:35:00.714] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[24Jun2025 00:35:00.730] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
+[24Jun2025 00:35:00.731] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
+[24Jun2025 00:35:00.731] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
+[24Jun2025 00:35:00.732] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
+[24Jun2025 00:35:00.732] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
+[24Jun2025 00:35:00.732] [Worker-Main-34/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
+[24Jun2025 00:35:08.340] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[24Jun2025 00:35:08.340] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[24Jun2025 00:35:08.358] [Worker-Main-35/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[24Jun2025 00:35:08.366] [Worker-Main-35/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[24Jun2025 00:36:47.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Best Friends Forever]
+[24Jun2025 00:37:45.139] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
+[24Jun2025 00:37:45.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
+[24Jun2025 00:38:09.111] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:38:09.132] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:38:17.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna fell from a high place
+[24Jun2025 00:38:17.556] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:39:30.932] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna was kicked for floating too long!
+[24Jun2025 00:39:30.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna lost connection: Flying is not enabled on this server
+[24Jun2025 00:39:30.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna left the game
+[24Jun2025 00:39:43.136] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:63291] logged in with entity id 78010 at (18.551941697588383, 28.594829634363435, -233.11264999861794)
+[24Jun2025 00:39:43.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
+[24Jun2025 00:40:28.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Not Today, Thank You]
+[24Jun2025 00:40:41.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Ice Bucket Challenge]
+[24Jun2025 00:41:11.001] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:65152] logged in with entity id 79889 at (21.49130932669776, 128.0, -755.6999999880791)
+[24Jun2025 00:41:11.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
+[24Jun2025 00:42:20.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Super Creeps]
+[24Jun2025 00:43:03.332] [Server thread/WARN] [tombstone/]: The death event of the player Luices was canceled by another mod
+[24Jun2025 00:43:03.348] [Server thread/INFO] [tombstone/]: The player Luices has successfully been saved
+[24Jun2025 00:43:03.978] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:43:03.992] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:43:22.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna was slain by Zombie
+[24Jun2025 00:43:26.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices was slain by Zombie
+[24Jun2025 00:43:27.882] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=275, y=73, z=-769} BlockPos{x=276, y=71, z=-770}
+[24Jun2025 00:43:28.193] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=276, y=73, z=-771} BlockPos{x=277, y=71, z=-772}
+[24Jun2025 00:43:28.255] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=276, y=73, z=-771} BlockPos{x=277, y=71, z=-772}
+[24Jun2025 00:43:49.889] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices was kicked for floating too long!
+[24Jun2025 00:43:49.936] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Flying is not enabled on this server
+[24Jun2025 00:43:49.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
+[24Jun2025 00:43:58.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx moved too quickly! 1.052802728827956,-14.927826081212999,-0.4812775154150586
+[24Jun2025 00:44:03.630] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:58010] logged in with entity id 83447 at (26.106273168442204, 5.304894054458748, -220.08181036751247)
+[24Jun2025 00:44:03.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
+[24Jun2025 00:44:08.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices was kicked for floating too long!
+[24Jun2025 00:44:08.289] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Flying is not enabled on this server
+[24Jun2025 00:44:08.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
+[24Jun2025 00:44:17.891] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:58049] logged in with entity id 83899 at (35.006992744394736, -22.353999679007188, -223.47318228449856)
+[24Jun2025 00:44:17.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
+[24Jun2025 00:44:34.744] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna was kicked for floating too long!
+[24Jun2025 00:44:34.797] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna lost connection: Flying is not enabled on this server
+[24Jun2025 00:44:34.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna left the game
+[24Jun2025 00:44:42.445] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:63547] logged in with entity id 84286 at (21.113690859711376, 43.52833362073736, -253.0674321489135)
+[24Jun2025 00:44:42.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
+[24Jun2025 00:45:07.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna was kicked for floating too long!
+[24Jun2025 00:45:07.241] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Danna lost connection: Flying is not enabled on this server
+[24Jun2025 00:45:07.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna left the game
+[24Jun2025 00:45:13.395] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Danna[/172.23.91.60:63583] logged in with entity id 84655 at (23.288121874324293, -30.656928361177332, -226.16062947814274)
+[24Jun2025 00:45:13.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna joined the game
+[24Jun2025 00:45:13.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Stolen Magic]
+[24Jun2025 00:45:18.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Ambush]
+[24Jun2025 00:45:39.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Isn't It Iron Pick]
+[24Jun2025 00:46:22.389] [Server thread/WARN] [tombstone/]: The death event of the player Danna was canceled by another mod
+[24Jun2025 00:46:22.390] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:46:24.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna tried to swim in lava
+[24Jun2025 00:46:24.390] [Server thread/INFO] [tombstone/]: The player Danna has successfully been saved
+[24Jun2025 00:46:25.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Knowledge of Death]
+[24Jun2025 00:46:25.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Funeral Theft]
+[24Jun2025 00:47:29.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has reached the goal [Here They Come]
+[24Jun2025 00:48:09.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [Die Classy]
+[24Jun2025 00:48:21.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Knowledge raises the soul]
