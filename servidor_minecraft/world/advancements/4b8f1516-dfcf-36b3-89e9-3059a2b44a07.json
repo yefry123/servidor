@@ -16,6 +16,7 @@
       "minecraft:taiga": "2025-06-23 22:42:42 +0000",
       "minecraft:frozen_river": "2025-06-23 22:40:56 +0000",
       "minecraft:birch_forest": "2025-06-23 23:56:06 +0000",
+      "minecraft:bamboo_jungle": "2025-06-24 01:10:13 +0000",
       "minecraft:beach": "2025-06-24 00:28:20 +0000",
       "minecraft:dark_forest": "2025-06-24 00:06:31 +0000",
       "minecraft:sparse_jungle": "2025-06-24 00:24:42 +0000",
@@ -533,7 +534,10 @@
       "apple": "2025-06-23 23:41:11 +0000",
       "pumpkin_pie": "2025-06-23 23:30:00 +0000",
       "mutton": "2025-06-23 23:34:20 +0000",
-      "bread": "2025-06-23 23:26:38 +0000"
+      "bread": "2025-06-23 23:26:38 +0000",
+      "golden_apple": "2025-06-24 01:20:54 +0000",
+      "melon_slice": "2025-06-24 01:14:56 +0000",
+      "golden_carrot": "2025-06-24 01:28:45 +0000"
     },
     "done": false
   },
@@ -972,10 +976,12 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-06-23 22:58:59 +0000",
+      "minecraft:hoglin": "2025-06-24 01:20:12 +0000",
       "minecraft:magma_cube": "2025-06-24 00:20:47 +0000",
       "minecraft:spider": "2025-06-23 23:09:43 +0000",
       "minecraft:creeper": "2025-06-24 00:05:45 +0000",
       "minecraft:phantom": "2025-06-24 00:45:18 +0000",
+      "minecraft:wither_skeleton": "2025-06-24 00:52:47 +0000",
       "minecraft:husk": "2025-06-23 23:20:27 +0000",
       "minecraft:piglin": "2025-06-23 23:58:02 +0000",
       "minecraft:zombie": "2025-06-23 23:06:01 +0000",
@@ -1511,15 +1517,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-06-24 00:13:05 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-06-24 00:16:15 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2025-06-24 00:19:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2025-06-24 00:23:47 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_button": {
+  "tombstone:adventure/first_grave": {
     "criteria": {
-      "has_planks": "2025-06-24 00:40:01 +0000"
+      "coded_trigger": "2025-06-24 00:25:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-06-24 00:25:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-06-24 00:25:32 +0000"
     },
     "done": true
   },
@@ -1529,21 +1565,21 @@
     },
     "done": true
   },
-  "tombstone:adventure/stolen_magic": {
+  "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
-      "coded_trigger": "2025-06-24 00:45:13 +0000"
+      "has_logs": "2025-06-24 00:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-06-24 00:40:01 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_horse_armor": "2025-06-24 00:40:01 +0000"
-    },
-    "done": true
-  },
-  "tombstone:recipes/from_grave_key": {
-    "criteria": {
-      "has_ingredient": "2025-06-24 00:25:32 +0000"
     },
     "done": true
   },
@@ -1565,12 +1601,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2025-06-24 00:13:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-06-24 00:40:01 +0000"
@@ -1583,51 +1613,15 @@
     },
     "done": true
   },
-  "dungeons_arise:find_heavenly_rider": {
-    "criteria": {
-      "location0": "2025-06-24 00:45:38 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-06-24 00:40:01 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/create_magic_tablet": {
-    "criteria": {
-      "has_magic_tablet": "2025-06-24 00:19:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-06-24 00:40:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_logs": "2025-06-24 00:36:37 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/ambush": {
-    "criteria": {
-      "coded_trigger": "2025-06-24 00:45:18 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_grave": {
-    "criteria": {
-      "coded_trigger": "2025-06-24 00:25:29 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_small_blimp": {
-    "criteria": {
-      "location0": "2025-06-24 00:16:15 +0000"
     },
     "done": true
   },
@@ -1643,15 +1637,129 @@
     },
     "done": true
   },
-  "tombstone:adventure/strong_or_careful": {
+  "tombstone:adventure/stolen_magic": {
     "criteria": {
-      "coded_trigger": "2025-06-24 00:25:29 +0000"
+      "coded_trigger": "2025-06-24 00:45:13 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2025-06-24 00:45:18 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_rider": {
+    "criteria": {
+      "location0": "2025-06-24 00:45:38 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
       "has_log": "2025-06-24 00:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-06-24 00:50:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-06-24 00:50:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-24 00:50:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-06-24 01:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-06-24 01:27:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-06-24 01:33:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-24 01:23:28 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_receptacle_of_familiar": "2025-06-24 01:23:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-06-24 01:33:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-06-24 01:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-06-24 01:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-06-24 01:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-06-24 01:24:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-06-24 01:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-06-24 01:23:28 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-06-24 01:22:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-06-24 01:23:00 +0000"
     },
     "done": true
   },
