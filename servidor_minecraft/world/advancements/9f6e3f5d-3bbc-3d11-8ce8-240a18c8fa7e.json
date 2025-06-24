@@ -461,6 +461,7 @@
       "bread": "2025-06-23 23:52:11 +0000",
       "cookie": "2025-06-24 00:16:33 +0000",
       "salmon": "2025-06-24 01:01:02 +0000",
+      "beetroot": "2025-06-24 02:21:20 +0000",
       "carrot": "2025-06-24 00:33:02 +0000"
     },
     "done": false
@@ -928,6 +929,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-06-24 02:21:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-06-24 01:55:31 +0000"
@@ -955,6 +962,12 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-06-24 01:53:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-06-24 02:21:09 +0000"
     },
     "done": true
   },
