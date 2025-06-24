@@ -346,6 +346,7 @@
       "mutton": "2025-06-24 00:20:57 +0000",
       "bread": "2025-06-23 23:37:16 +0000",
       "golden_apple": "2025-06-24 01:26:03 +0000",
+      "golden_carrot": "2025-06-24 01:57:35 +0000",
       "cooked_chicken": "2025-06-23 23:51:25 +0000",
       "enchanted_golden_apple": "2025-06-24 01:48:22 +0000",
       "carrot": "2025-06-24 00:16:22 +0000"
@@ -916,6 +917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-24 01:58:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2025-06-24 00:57:31 +0000"
@@ -946,9 +953,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-24 01:58:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-24 01:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2025-06-24 01:53:10 +0000"
     },
     "done": true
   },
@@ -979,6 +998,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-24 01:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_leggings": "2025-06-24 01:51:56 +0000"
     },
     "done": true
   },
@@ -1033,6 +1058,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-06-24 01:03:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_leggings": "2025-06-24 01:51:56 +0000"
     },
     "done": true
   },
@@ -1198,6 +1229,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-24 01:58:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-06-24 01:29:52 +0000"
@@ -1330,6 +1367,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-06-24 01:49:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-06-24 01:30:58 +0000"
@@ -1417,6 +1460,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-06-24 01:29:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2025-06-24 01:58:27 +0000"
     },
     "done": true
   },

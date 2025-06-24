@@ -7023,3 +7023,27 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [24Jun2025 01:49:32.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> k rico
 [24Jun2025 01:49:37.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [Great minds think alike]
 [24Jun2025 01:49:46.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> ahora entroo
+[24Jun2025 01:50:37.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Diamonds!]
+[24Jun2025 01:53:35.457] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[24Jun2025 01:53:35.462] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[24Jun2025 01:54:39.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'gravestone:grave_dust'
+[24Jun2025 01:54:39.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...ive Yefry gravestone:grave_dust 1<--[HERE]
+[24Jun2025 01:54:48.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'gravestone:grave_dust'
+[24Jun2025 01:54:48.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...ive Yefry gravestone:grave_dust 1<--[HERE]
+[24Jun2025 01:55:11.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'minecraft:grav'
+[24Jun2025 01:55:12.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...ive Yefry grav<--[HERE]
+[24Jun2025 01:55:21.532] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/141667, l='ServerLevel[world]', x=-942.54, y=105.01, z=-864.21] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:55:27.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/142558, l='ServerLevel[world]', x=-948.55, y=105.01, z=-867.17] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:55:48.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/142372, l='ServerLevel[world]', x=-941.41, y=105.01, z=-867.55] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:58:35.458] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[24Jun2025 01:58:35.461] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[24Jun2025 01:59:12.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/141972, l='ServerLevel[world]', x=-951.41, y=105.01, z=-885.47] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:59:18.832] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/148548, l='ServerLevel[world]', x=-955.67, y=105.01, z=-889.49] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:59:24.983] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/148547, l='ServerLevel[world]', x=-954.70, y=105.01, z=-890.65] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:59:27.932] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/142180, l='ServerLevel[world]', x=-951.27, y=105.01, z=-892.79] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 01:59:48.590] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Timed out
+[24Jun2025 01:59:48.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
+[24Jun2025 02:00:13.674] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/141971, l='ServerLevel[world]', x=-953.07, y=105.01, z=-890.06] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:00:13.726] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/148546, l='ServerLevel[world]', x=-953.95, y=105.01, z=-890.20] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:00:41.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> yo ahora hablo
+[24Jun2025 02:00:44.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> es pere
