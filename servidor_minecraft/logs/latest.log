@@ -468,3 +468,36 @@
 [24Jun2025 02:23:41.881] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
 [24Jun2025 02:23:41.882] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
 [24Jun2025 02:30:02.035] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/160970, l='ServerLevel[world]', x=-952.53, y=153.01, z=-879.97] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:32:35.173] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
+[24Jun2025 02:32:35.180] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
+[24Jun2025 02:32:51.931] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/160969, l='ServerLevel[world]', x=-956.86, y=153.01, z=-877.01] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:33:08.079] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/158669, l='ServerLevel[world]', x=-954.94, y=153.01, z=-875.89] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:34:08.330] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Luices lost connection: Disconnected
+[24Jun2025 02:34:08.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices left the game
+[24Jun2025 02:34:25.626] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162702, l='ServerLevel[world]', x=-927.71, y=161.01, z=-875.88] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:34:37.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Luices[/172.23.237.241:64401] logged in with entity id 164690 at (236.30000001192093, 71.0, -1257.9284010874924)
+[24Jun2025 02:34:37.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices joined the game
+[24Jun2025 02:34:39.380] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162930, l='ServerLevel[world]', x=-932.67, y=161.01, z=-875.72] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:34:50.723] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
+[24Jun2025 02:34:50.728] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
+[24Jun2025 02:35:41.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> pere
+[24Jun2025 02:35:43.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> ole
+[24Jun2025 02:35:47.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> tome
+[24Jun2025 02:36:01.378] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162545, l='ServerLevel[world]', x=-935.31, y=161.01, z=-881.15] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:36:04.807] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162544, l='ServerLevel[world]', x=-929.97, y=161.01, z=-881.59] died: Dinnerbone was slain by yefry
+[24Jun2025 02:36:12.980] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162931, l='ServerLevel[world]', x=-928.52, y=161.01, z=-878.81] died: Dinnerbone was slain by yefry
+[24Jun2025 02:36:26.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> porfiiiin
+[24Jun2025 02:36:31.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Luices> k
+[24Jun2025 02:36:40.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> ya puedo jugar xd
+[24Jun2025 02:36:46.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Danna> mama no se callaba
+[24Jun2025 02:36:46.628] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/162915, l='ServerLevel[world]', x=-957.90, y=161.01, z=-888.93] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:37:08.682] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/161528, l='ServerLevel[world]', x=-934.30, y=161.01, z=-882.70] died: Dinnerbone was slain by FabianTc
+[24Jun2025 02:37:20.278] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/164037, l='ServerLevel[world]', x=-957.43, y=161.01, z=-885.30] died: Dinnerbone was shot by Dinnerbone
+[24Jun2025 02:38:00.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Stolen Magic]
+[24Jun2025 02:38:05.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Magic Writing]
+[24Jun2025 02:38:09.878] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
+[24Jun2025 02:38:09.879] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
+[24Jun2025 02:38:37.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has reached the goal [A little cleaning is necessary]
+[24Jun2025 02:39:07.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [Magic Siphoner]
+[24Jun2025 02:39:13.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danna has made the advancement [What a Deal!]
+[24Jun2025 02:41:39.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Luices has made the advancement [Cover Me with Diamonds]
