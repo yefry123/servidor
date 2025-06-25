@@ -59,3 +59,32 @@
 [25Jun2025 01:08:16.308] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:51121] logged in with entity id 342 at (130.4027272925074, 214.0, -4747.654050072721)
 [25Jun2025 01:08:16.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
 [25Jun2025 01:08:19.415] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3088ms or 61 ticks behind
+[25Jun2025 01:09:06.560] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:59434] logged in with entity id 530 at (-901.3965190196343, 79.0, -899.2899745507028)
+[25Jun2025 01:09:06.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[25Jun2025 01:09:30.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> buena shona
+[25Jun2025 01:10:38.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ShonA> gracias bro
+[25Jun2025 01:13:31.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 0.26082891231766325,-12.924399078630557,0.30801816409712046
+[25Jun2025 01:13:34.593] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
+[25Jun2025 01:13:34.594] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[25Jun2025 01:13:34.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[25Jun2025 01:13:34.688] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[25Jun2025 01:14:18.355] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:51214] logged in with entity id 1896 at (128.44204971674327, 99.09797957069519, -4730.114816402555)
+[25Jun2025 01:14:18.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[25Jun2025 01:15:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> twwwwww
+[25Jun2025 01:23:58.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:57512] logged in with entity id 5247 at (127.34890753627413, 214.0, -4756.699999988079)
+[25Jun2025 01:23:58.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
+[25Jun2025 01:25:05.567] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
+[25Jun2025 01:25:05.567] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[25Jun2025 01:25:17.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc was doomed to fall by Husk
+[25Jun2025 01:34:25.197] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50007] logged in with entity id 8571 at (10.5, 63.0, -28.5)
+[25Jun2025 01:34:25.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
+[25Jun2025 01:34:25.461] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/8603, l='ServerLevel[world]', x=-176.01, y=73.19, z=-196.01]
+[25Jun2025 01:34:25.755] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Cow['Cow'/8636, l='ServerLevel[world]', x=-176.01, y=70.00, z=125.42]
+[25Jun2025 01:35:25.355] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Disconnected
+[25Jun2025 01:35:25.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
+[25Jun2025 01:35:49.943] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50026] logged in with entity id 9430 at (10.5, 63.0, -28.5)
+[25Jun2025 01:35:49.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
+[25Jun2025 01:37:33.749] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
+[25Jun2025 01:37:33.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[25Jun2025 01:38:27.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Stone Age]
+[25Jun2025 01:38:43.047] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@13b4614d[id=<null>,name=FabianTc,properties={},legacy=false] (/172.23.250.146:62305) lost connection: Disconnected
