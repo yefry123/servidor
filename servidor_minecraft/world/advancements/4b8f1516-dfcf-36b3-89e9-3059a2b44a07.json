@@ -975,6 +975,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-06-25 02:06:52 +0000",
       "minecraft:skeleton": "2025-06-23 22:58:59 +0000",
       "minecraft:hoglin": "2025-06-24 01:20:12 +0000",
       "minecraft:magma_cube": "2025-06-24 00:20:47 +0000",
@@ -1777,7 +1778,9 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-06-25 01:56:12 +0000"
+      "minecraft:nether_wastes": "2025-06-25 01:56:12 +0000",
+      "minecraft:soul_sand_valley": "2025-06-25 02:01:53 +0000",
+      "minecraft:basalt_deltas": "2025-06-25 02:07:26 +0000"
     },
     "done": false
   },
@@ -1796,6 +1799,12 @@
   "minecraft:recipes/redstone/acacia_trapdoor": {
     "criteria": {
       "has_planks": "2025-06-25 01:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-06-25 02:07:13 +0000"
     },
     "done": true
   },
@@ -1877,9 +1886,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-25 02:07:13 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-06-25 02:05:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-06-25 02:03:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2025-06-25 01:55:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-25 02:07:13 +0000"
     },
     "done": true
   },

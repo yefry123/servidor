@@ -118,3 +118,42 @@
 [25Jun2025 01:56:12.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [We Need to Go Deeper]
 [25Jun2025 01:57:05.644] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
 [25Jun2025 01:57:05.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
+[25Jun2025 01:59:35.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50097] logged in with entity id 22688 at (-209.0964403306256, 95.02442408821369, -469.3608512480223)
+[25Jun2025 01:59:35.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
+[25Jun2025 02:00:35.648] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
+[25Jun2025 02:00:35.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
+[25Jun2025 02:00:55.001] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50108] logged in with entity id 23877 at (-209.0964403306256, 95.02442408821369, -469.3608512480223)
+[25Jun2025 02:00:55.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
+[25Jun2025 02:01:51.028] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
+[25Jun2025 02:01:51.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
+[25Jun2025 02:03:51.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [A Terrible Fortress]
+[25Jun2025 02:03:54.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [A Terrible Fortress]
+[25Jun2025 02:05:22.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Magic Writing]
+[25Jun2025 02:05:42.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Into Fire]
+[25Jun2025 02:06:10.396] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 0.5779296717821012,0.0,-10.188122404823844
+[25Jun2025 02:07:07.505] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[25Jun2025 02:07:07.507] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[25Jun2025 02:07:07.507] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[25Jun2025 02:07:07.507] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[25Jun2025 02:07:07.508] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[25Jun2025 02:07:07.514] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[25Jun2025 02:07:07.514] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[25Jun2025 02:07:07.514] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[25Jun2025 02:07:07.534] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[25Jun2025 02:07:07.534] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[25Jun2025 02:07:07.534] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[25Jun2025 02:07:07.536] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[25Jun2025 02:07:07.536] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[25Jun2025 02:07:07.537] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[25Jun2025 02:07:07.537] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[25Jun2025 02:07:10.101] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[25Jun2025 02:07:10.272] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[25Jun2025 02:07:10.273] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[25Jun2025 02:07:10.273] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[25Jun2025 02:07:13.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Into Fire]
+[25Jun2025 02:08:47.644] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[25Jun2025 02:08:47.645] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
