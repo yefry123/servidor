@@ -1,386 +1,72 @@
-[25Jun2025 00:58:23.329] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[25Jun2025 00:58:23.335] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[25Jun2025 00:58:23.679] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[25Jun2025 00:58:23.733] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[25Jun2025 00:58:23.949] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[25Jun2025 00:58:23.952] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25Jun2025 00:58:23.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25Jun2025 00:58:23.955] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25Jun2025 00:58:24.037] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[25Jun2025 00:58:25.708] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Jun2025 00:58:25.725] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[25Jun2025 00:58:32.774] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[25Jun2025 00:58:32.780] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[25Jun2025 00:58:33.725] [main/INFO] [journeymap/]: Initializing Packet Registries
-[25Jun2025 00:58:33.893] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[25Jun2025 00:58:34.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.8 Target: null
-[25Jun2025 00:58:34.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[25Jun2025 00:58:34.350] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[25Jun2025 00:58:34.350] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[25Jun2025 00:58:34.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[25Jun2025 00:58:35.532] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[25Jun2025 00:58:36.391] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
-[25Jun2025 00:58:36.391] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
-[25Jun2025 00:58:38.521] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[25Jun2025 00:58:38.636] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1548 advancements
-[25Jun2025 00:58:39.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[25Jun2025 00:58:39.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[25Jun2025 00:58:39.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[25Jun2025 00:58:39.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[25Jun2025 00:58:39.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[25Jun2025 00:58:39.424] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[25Jun2025 00:58:39.527] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[25Jun2025 00:58:39.527] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[25Jun2025 00:58:39.528] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[25Jun2025 00:58:39.528] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[25Jun2025 00:58:39.563] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[25Jun2025 00:58:39.564] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[25Jun2025 00:58:39.566] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[25Jun2025 00:58:39.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[25Jun2025 00:58:42.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25Jun2025 00:58:48.647] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.648] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.649] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.650] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.653] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.655] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.657] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.658] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.660] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.662] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.664] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:48.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Jun2025 00:58:49.272] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[25Jun2025 00:58:49.772] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[25Jun2025 00:58:50.059] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7288 ms
-[25Jun2025 00:58:50.060] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.517s)! For help, type "help"
-[25Jun2025 00:58:50.093] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[25Jun2025 01:08:16.308] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:51121] logged in with entity id 342 at (130.4027272925074, 214.0, -4747.654050072721)
-[25Jun2025 01:08:16.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 01:08:19.415] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3088ms or 61 ticks behind
-[25Jun2025 01:09:06.560] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:59434] logged in with entity id 530 at (-901.3965190196343, 79.0, -899.2899745507028)
-[25Jun2025 01:09:06.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[25Jun2025 01:09:30.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> buena shona
-[25Jun2025 01:10:38.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ShonA> gracias bro
-[25Jun2025 01:13:31.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 0.26082891231766325,-12.924399078630557,0.30801816409712046
-[25Jun2025 01:13:34.593] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 01:13:34.594] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
-[25Jun2025 01:13:34.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 01:13:34.688] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[25Jun2025 01:14:18.355] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:51214] logged in with entity id 1896 at (128.44204971674327, 99.09797957069519, -4730.114816402555)
-[25Jun2025 01:14:18.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 01:15:19.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> twwwwww
-[25Jun2025 01:23:58.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:57512] logged in with entity id 5247 at (127.34890753627413, 214.0, -4756.699999988079)
-[25Jun2025 01:23:58.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
-[25Jun2025 01:25:05.567] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[25Jun2025 01:25:05.567] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[25Jun2025 01:25:17.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc was doomed to fall by Husk
-[25Jun2025 01:34:25.197] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50007] logged in with entity id 8571 at (10.5, 63.0, -28.5)
-[25Jun2025 01:34:25.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[25Jun2025 01:34:25.461] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Rabbit['Rabbit'/8603, l='ServerLevel[world]', x=-176.01, y=73.19, z=-196.01]
-[25Jun2025 01:34:25.755] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Cow['Cow'/8636, l='ServerLevel[world]', x=-176.01, y=70.00, z=125.42]
-[25Jun2025 01:35:25.355] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Disconnected
-[25Jun2025 01:35:25.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[25Jun2025 01:35:49.943] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50026] logged in with entity id 9430 at (10.5, 63.0, -28.5)
-[25Jun2025 01:35:49.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[25Jun2025 01:37:33.749] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
-[25Jun2025 01:37:33.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[25Jun2025 01:38:27.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Stone Age]
-[25Jun2025 01:38:43.047] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@13b4614d[id=<null>,name=FabianTc,properties={},legacy=false] (/172.23.250.146:62305) lost connection: Disconnected
-[25Jun2025 01:38:54.899] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:62403] logged in with entity id 10854 at (-1359.699999988079, 75.0, -1081.3280445257697)
-[25Jun2025 01:38:54.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[25Jun2025 01:39:53.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DjstevenZ> GAYS
-[25Jun2025 01:40:03.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> buena bro
-[25Jun2025 01:40:21.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DjstevenZ> DISCORD DE MIERDA NO ME DEJA ENTRAR
-[25Jun2025 01:41:48.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [A Strange Grave Dust]
-[25Jun2025 01:42:50.547] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
-[25Jun2025 01:42:50.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[25Jun2025 01:43:26.707] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50048] logged in with entity id 14333 at (11.547376732351417, 64.0, 27.584326434213498)
-[25Jun2025 01:43:26.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[25Jun2025 01:44:10.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Getting an Upgrade]
-[25Jun2025 01:47:25.397] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[25Jun2025 01:47:25.399] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[25Jun2025 01:48:13.648] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
-[25Jun2025 01:48:13.650] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
-[25Jun2025 01:48:35.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ was shot by Stray
-[25Jun2025 01:48:35.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Your First Grave]
-[25Jun2025 01:50:26.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has reached the goal [Here They Come]
-[25Jun2025 01:52:02.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> backpack
-[25Jun2025 01:53:42.726] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
-[25Jun2025 01:53:42.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[25Jun2025 01:53:58.595] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50072] logged in with entity id 20308 at (-356.30000001192093, 85.0, -337.17856604814943)
-[25Jun2025 01:53:58.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[25Jun2025 01:55:29.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Who is Cutting Onions?]
-[25Jun2025 01:56:11.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [We Need to Go Deeper]
-[25Jun2025 01:56:11.811] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ moved too quickly! 5.308952350088191,2.176759275064242,-8.521713619113825
-[25Jun2025 01:56:11.821] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2344ms or 46 ticks behind
-[25Jun2025 01:56:12.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [We Need to Go Deeper]
-[25Jun2025 01:57:05.644] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
-[25Jun2025 01:57:05.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[25Jun2025 01:59:35.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50097] logged in with entity id 22688 at (-209.0964403306256, 95.02442408821369, -469.3608512480223)
-[25Jun2025 01:59:35.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[25Jun2025 02:00:35.648] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
-[25Jun2025 02:00:35.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[25Jun2025 02:00:55.001] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50108] logged in with entity id 23877 at (-209.0964403306256, 95.02442408821369, -469.3608512480223)
-[25Jun2025 02:00:55.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[25Jun2025 02:01:51.028] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Timed out
-[25Jun2025 02:01:51.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[25Jun2025 02:03:51.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [A Terrible Fortress]
-[25Jun2025 02:03:54.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [A Terrible Fortress]
-[25Jun2025 02:05:22.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Magic Writing]
-[25Jun2025 02:05:42.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Into Fire]
-[25Jun2025 02:06:10.396] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 0.5779296717821012,0.0,-10.188122404823844
-[25Jun2025 02:07:07.505] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
-[25Jun2025 02:07:07.507] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
-[25Jun2025 02:07:07.507] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
-[25Jun2025 02:07:07.507] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
-[25Jun2025 02:07:07.508] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
-[25Jun2025 02:07:07.514] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
-[25Jun2025 02:07:07.514] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
-[25Jun2025 02:07:07.514] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
-[25Jun2025 02:07:07.534] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
-[25Jun2025 02:07:07.534] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
-[25Jun2025 02:07:07.534] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
-[25Jun2025 02:07:07.536] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
-[25Jun2025 02:07:07.536] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
-[25Jun2025 02:07:07.537] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
-[25Jun2025 02:07:07.537] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
-[25Jun2025 02:07:10.101] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
-[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
-[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
-[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
-[25Jun2025 02:07:10.102] [Worker-Main-14/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
-[25Jun2025 02:07:10.272] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
-[25Jun2025 02:07:10.273] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
-[25Jun2025 02:07:10.273] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
-[25Jun2025 02:07:13.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Into Fire]
-[25Jun2025 02:08:47.644] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[25Jun2025 02:08:47.645] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[25Jun2025 02:10:14.094] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[25Jun2025 02:10:14.096] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[25Jun2025 02:16:23.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Those Were the Days]
-[25Jun2025 02:16:30.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Those Were the Days]
-[25Jun2025 02:17:04.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Hot Stuff]
-[25Jun2025 02:17:09.212] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:62341] logged in with entity id 31880 at (-928.2756718661161, 93.0625, -865.9110030634047)
-[25Jun2025 02:17:09.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[25Jun2025 02:17:22.408] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
-[25Jun2025 02:17:22.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
-[25Jun2025 02:18:04.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [War Pigs]
-[25Jun2025 02:18:05.308] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:62397] logged in with entity id 32420 at (-928.2756718661161, 93.0625, -865.9110030634047)
-[25Jun2025 02:18:05.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[25Jun2025 02:18:21.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> condenados al exito
-[25Jun2025 02:20:32.741] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[25Jun2025 02:20:32.759] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[25Jun2025 02:20:38.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry was slain by Zombie
-[25Jun2025 02:21:55.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has completed the challenge [Hot Tourist Destinations]
-[25Jun2025 02:22:00.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
-[25Jun2025 02:22:20.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has completed the challenge [Hot Tourist Destinations]
-[25Jun2025 02:24:18.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [War Pigs]
-[25Jun2025 02:24:54.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Ol' Betsy]
-[25Jun2025 02:29:16.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Disconnected
-[25Jun2025 02:29:16.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
-[25Jun2025 02:31:51.913] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[25Jun2025 02:31:51.916] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[25Jun2025 02:31:57.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA tried to swim in lava
-[25Jun2025 02:31:57.918] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[25Jun2025 02:32:43.602] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:32:43.654] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
-[25Jun2025 02:32:43.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:32:54.549] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52219] logged in with entity id 43996 at (140.33677489654704, 194.84753002088382, -4697.25920664435)
-[25Jun2025 02:32:54.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:33:00.102] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:33:00.152] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
-[25Jun2025 02:33:00.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:33:17.353] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52250] logged in with entity id 44249 at (140.29976028516538, 179.59930320789974, -4690.279906010261)
-[25Jun2025 02:33:17.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:33:23.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:33:23.763] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
-[25Jun2025 02:33:23.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:33:40.251] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52276] logged in with entity id 44657 at (144.19532355604005, 164.17629931401873, -4692.249093069079)
-[25Jun2025 02:33:40.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:33:44.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Ambush]
-[25Jun2025 02:33:45.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:33:45.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
-[25Jun2025 02:33:45.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:34:00.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Voluntary Exile]
-[25Jun2025 02:34:03.759] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52284] logged in with entity id 45366 at (144.19532355604005, 148.92807250103468, -4692.249093069079)
-[25Jun2025 02:34:03.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:34:08.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:09.011] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:09.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:09.107] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:09.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:09.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
-[25Jun2025 02:34:09.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:34:26.249] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52299] logged in with entity id 45900 at (144.19532355604005, 134.0293998498445, -4692.249093069079)
-[25Jun2025 02:34:26.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:34:31.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.653] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.750] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.899] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:31.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.002] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.152] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.352] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.503] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.548] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.604] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.749] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:32.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [Fortuitous Militia]
-[25Jun2025 02:34:32.958] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.001] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.148] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.452] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.549] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.603] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.653] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.757] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.904] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:33.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.000] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.152] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.205] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.261] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.397] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.453] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.500] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.553] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.603] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.902] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:34.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.005] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.301] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.448] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.560] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.749] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.803] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.903] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:35.955] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.100] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.248] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.299] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.450] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.553] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.608] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.754] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.808] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.900] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:36.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.100] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.150] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.197] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.301] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:37.454] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
-[25Jun2025 02:34:37.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:34:53.699] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52309] logged in with entity id 46471 at (144.19532355604005, 120.00461260313905, -4692.249093069079)
-[25Jun2025 02:34:53.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:34:58.998] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.063] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.162] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.300] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.456] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.501] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.605] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.660] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.754] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.797] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.850] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.902] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
-[25Jun2025 02:34:59.954] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Flying is not enabled on this server
-[25Jun2025 02:34:59.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:35:06.949] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:52320] logged in with entity id 46861 at (141.79973499360224, 104.58160870925812, -4693.88055602945)
-[25Jun2025 02:35:06.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
-[25Jun2025 02:36:06.969] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/42905, l='ServerLevel[world]', x=87.30, y=111.23, z=-965.07] died, message: 'Villager was shot by Pillager'
-[25Jun2025 02:38:40.254] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/42843, l='ServerLevel[world]', x=67.80, y=104.18, z=-966.67] died, message: 'Villager was shot by Pillager'
-[25Jun2025 02:42:03.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has completed the challenge [Village Defender]
-[25Jun2025 02:43:29.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> huy noooooooooo
-[25Jun2025 02:47:01.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <FabianTc> 144 / 62 / -4703
-[25Jun2025 02:47:17.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
-[25Jun2025 02:48:31.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Where Is The Stone Pen?]
-[25Jun2025 02:48:34.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Your First Receptacle]
-[25Jun2025 02:48:38.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
-[25Jun2025 02:52:54.688] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
-[25Jun2025 02:52:54.698] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
-[25Jun2025 02:53:01.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA was blown up by Creeper
-[25Jun2025 02:53:19.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yefry to 144.500000, 62.000000, -4702.500000
-[25Jun2025 02:53:23.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> wt
-[25Jun2025 02:53:46.691] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
-[25Jun2025 02:53:46.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
-[25Jun2025 02:54:32.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yefry to FabianTc
-[25Jun2025 02:55:47.437] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[25Jun2025 02:55:47.439] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[25Jun2025 02:55:49.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
-[25Jun2025 02:55:49.438] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[25Jun2025 02:56:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Take Aim]
-[25Jun2025 02:57:22.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Stolen Magic]
-[25Jun2025 02:58:56.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has completed the challenge [Master Siphoner]
+[25Jun2025 23:43:28.489] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Jun2025 23:43:28.492] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[25Jun2025 23:43:28.808] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Jun2025 23:43:28.855] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Jun2025 23:43:29.087] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jun2025 23:43:29.093] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jun2025 23:43:29.095] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jun2025 23:43:29.096] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Jun2025 23:43:29.175] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25Jun2025 23:43:30.624] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Jun2025 23:43:30.641] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Jun2025 23:43:37.445] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Jun2025 23:43:37.447] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Jun2025 23:43:38.464] [main/INFO] [journeymap/]: Initializing Packet Registries
+[25Jun2025 23:43:38.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[25Jun2025 23:43:38.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.8 Target: null
+[25Jun2025 23:43:38.911] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Jun2025 23:43:39.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[25Jun2025 23:43:39.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[25Jun2025 23:43:39.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 5.10.3 Target: null
+[25Jun2025 23:43:40.057] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Jun2025 23:43:40.817] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[25Jun2025 23:43:40.817] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[25Jun2025 23:43:42.886] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25Jun2025 23:43:43.034] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1548 advancements
+[25Jun2025 23:43:43.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Jun2025 23:43:43.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Jun2025 23:43:43.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Jun2025 23:43:43.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Jun2025 23:43:43.685] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Jun2025 23:43:43.725] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Jun2025 23:43:43.819] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Jun2025 23:43:43.820] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Jun2025 23:43:43.820] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Jun2025 23:43:43.820] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Jun2025 23:43:43.851] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Jun2025 23:43:43.852] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Jun2025 23:43:43.853] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Jun2025 23:43:43.886] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Jun2025 23:43:46.820] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jun2025 23:43:47.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Jun2025 23:43:48.271] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jun2025 23:43:51.006] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jun2025 23:43:52.293] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.319] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.334] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.344] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.350] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.351] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.352] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.353] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.354] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.361] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.374] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Jun2025 23:43:52.701] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[25Jun2025 23:43:53.201] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[25Jun2025 23:43:53.262] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Jun2025 23:43:53.567] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6367 ms
+[25Jun2025 23:43:53.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.733s)! For help, type "help"
+[25Jun2025 23:43:53.590] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Jun2025 23:44:18.158] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:54891] logged in with entity id 227 at (128.69999998807907, 214.0, -4756.681227572699)
+[25Jun2025 23:44:18.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[25Jun2025 23:44:21.216] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3034ms or 60 ticks behind
+[25Jun2025 23:44:30.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50735] logged in with entity id 454 at (-209.0964403306256, 95.02442408821369, -469.3608512480223)
+[25Jun2025 23:44:30.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
+[25Jun2025 23:45:30.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Monster Hunter]
+[25Jun2025 23:46:04.141] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:51754] logged in with entity id 1624 at (247.3734506973779, 94.0, 101.69999998807907)
+[25Jun2025 23:46:04.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
+[25Jun2025 23:46:31.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> no pasa un rato y ya andan metidos par de ratas
+[25Jun2025 23:46:45.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DjstevenZ> respasen ratones
+[25Jun2025 23:48:04.972] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
+[25Jun2025 23:48:06.889] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
