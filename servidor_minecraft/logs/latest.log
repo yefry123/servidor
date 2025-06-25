@@ -369,3 +369,18 @@
 [25Jun2025 02:48:31.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Where Is The Stone Pen?]
 [25Jun2025 02:48:34.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Your First Receptacle]
 [25Jun2025 02:48:38.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
+[25Jun2025 02:52:54.688] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[25Jun2025 02:52:54.698] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[25Jun2025 02:53:01.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA was blown up by Creeper
+[25Jun2025 02:53:19.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yefry to 144.500000, 62.000000, -4702.500000
+[25Jun2025 02:53:23.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> wt
+[25Jun2025 02:53:46.691] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[25Jun2025 02:53:46.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[25Jun2025 02:54:32.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yefry to FabianTc
+[25Jun2025 02:55:47.437] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
+[25Jun2025 02:55:47.439] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[25Jun2025 02:55:49.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
+[25Jun2025 02:55:49.438] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[25Jun2025 02:56:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Take Aim]
+[25Jun2025 02:57:22.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Stolen Magic]
+[25Jun2025 02:58:56.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has completed the challenge [Master Siphoner]

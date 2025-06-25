@@ -18,6 +18,7 @@
       "minecraft:taiga": "2025-06-23 23:49:47 +0000",
       "minecraft:frozen_river": "2025-06-23 23:43:03 +0000",
       "minecraft:cherry_grove": "2025-06-24 00:22:46 +0000",
+      "minecraft:bamboo_jungle": "2025-06-25 02:53:41 +0000",
       "minecraft:beach": "2025-06-23 23:49:09 +0000",
       "minecraft:river": "2025-06-23 23:57:55 +0000",
       "minecraft:snowy_plains": "2025-06-23 23:58:09 +0000",
@@ -26,6 +27,7 @@
       "minecraft:grove": "2025-06-24 01:41:55 +0000",
       "minecraft:cold_ocean": "2025-06-23 23:49:08 +0000",
       "minecraft:forest": "2025-06-23 23:53:06 +0000",
+      "minecraft:jungle": "2025-06-25 02:53:20 +0000",
       "minecraft:snowy_beach": "2025-06-23 23:49:02 +0000",
       "minecraft:meadow": "2025-06-24 00:22:36 +0000",
       "minecraft:plains": "2025-06-23 23:55:24 +0000"
@@ -1978,6 +1980,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-06-25 02:56:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-06-25 02:25:48 +0000"
@@ -2002,15 +2010,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2025-06-25 02:50:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2025-06-25 02:35:24 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2025-06-25 02:50:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-06-25 02:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2025-06-25 02:50:52 +0000"
     },
     "done": true
   },

@@ -3919,3 +3919,24 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [25Jun2025 02:48:38.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
 [25Jun2025 02:48:55.473] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [25Jun2025 02:48:55.477] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jun2025 02:52:54.688] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[25Jun2025 02:52:54.698] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[25Jun2025 02:53:01.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA was blown up by Creeper
+[25Jun2025 02:53:01.706] [Server thread/DEBUG] [tombstone/]: A new grave of the player ShonA was created at position [x:128, y:64, z:-4735, dim:minecraft:overworld]
+[25Jun2025 02:53:19.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yefry to 144.500000, 62.000000, -4702.500000
+[25Jun2025 02:53:23.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> wt
+[25Jun2025 02:53:46.691] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[25Jun2025 02:53:46.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[25Jun2025 02:53:55.454] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jun2025 02:53:55.460] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jun2025 02:54:32.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported yefry to FabianTc
+[25Jun2025 02:55:47.437] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
+[25Jun2025 02:55:47.439] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[25Jun2025 02:55:49.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
+[25Jun2025 02:55:49.437] [Server thread/DEBUG] [tombstone/]: A new grave of the player FabianTc was created at position [x:123, y:70, z:-4752, dim:minecraft:overworld]
+[25Jun2025 02:55:49.438] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[25Jun2025 02:56:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Take Aim]
+[25Jun2025 02:57:22.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Stolen Magic]
+[25Jun2025 02:58:55.450] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Jun2025 02:58:55.455] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Jun2025 02:58:56.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has completed the challenge [Master Siphoner]
