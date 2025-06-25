@@ -157,3 +157,16 @@
 [25Jun2025 02:07:13.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Into Fire]
 [25Jun2025 02:08:47.644] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
 [25Jun2025 02:08:47.645] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[25Jun2025 02:10:14.094] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[25Jun2025 02:10:14.096] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[25Jun2025 02:16:23.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Those Were the Days]
+[25Jun2025 02:16:30.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Those Were the Days]
+[25Jun2025 02:17:04.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Hot Stuff]
+[25Jun2025 02:17:09.212] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:62341] logged in with entity id 31880 at (-928.2756718661161, 93.0625, -865.9110030634047)
+[25Jun2025 02:17:09.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
+[25Jun2025 02:17:22.408] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Disconnected
+[25Jun2025 02:17:22.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
+[25Jun2025 02:18:04.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [War Pigs]
+[25Jun2025 02:18:05.308] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:62397] logged in with entity id 32420 at (-928.2756718661161, 93.0625, -865.9110030634047)
+[25Jun2025 02:18:05.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
+[25Jun2025 02:18:21.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> condenados al exito
