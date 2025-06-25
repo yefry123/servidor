@@ -559,7 +559,9 @@
       "minecraft:ghast": "2025-06-25 01:56:25 +0000",
       "minecraft:hoglin": "2025-06-24 00:51:40 +0000",
       "minecraft:spider": "2025-06-23 22:49:13 +0000",
+      "minecraft:piglin_brute": "2025-06-25 02:25:09 +0000",
       "minecraft:creeper": "2025-06-23 23:31:26 +0000",
+      "minecraft:zombified_piglin": "2025-06-25 02:26:45 +0000",
       "minecraft:wither_skeleton": "2025-06-25 02:06:26 +0000",
       "minecraft:piglin": "2025-06-23 23:59:06 +0000",
       "minecraft:zombie": "2025-06-23 22:48:52 +0000"
@@ -604,6 +606,7 @@
       "tropical_fish": "2025-06-24 01:01:53 +0000",
       "apple": "2025-06-23 23:41:16 +0000",
       "potato": "2025-06-24 00:59:56 +0000",
+      "pumpkin_pie": "2025-06-25 02:44:37 +0000",
       "mutton": "2025-06-23 23:36:49 +0000",
       "bread": "2025-06-23 23:49:51 +0000",
       "golden_carrot": "2025-06-24 00:50:02 +0000"
@@ -1750,72 +1753,45 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2025-06-25 01:55:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2025-06-25 01:38:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2025-06-25 02:12:21 +0000",
-      "minecraft:nether_wastes": "2025-06-25 01:56:13 +0000",
-      "minecraft:soul_sand_valley": "2025-06-25 02:01:57 +0000",
-      "minecraft:basalt_deltas": "2025-06-25 02:07:27 +0000"
-    },
-    "done": false
-  },
-  "tombstone:adventure/find_grave_dust": {
-    "criteria": {
-      "from_undead": "2025-06-25 01:41:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-06-25 01:56:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-25 01:56:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-06-25 02:05:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-06-25 01:19:31 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+  "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
-      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+      "has_log": "2025-06-25 01:20:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_brick_slab": {
+  "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+      "has_gunpowder": "2025-06-25 01:25:36 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
+  "minecraft:recipes/redstone/tnt": {
     "criteria": {
-      "has_gold_nugget": "2025-06-25 01:56:31 +0000"
+      "has_gunpowder": "2025-06-25 01:25:36 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-06-25 01:34:25 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-06-25 01:34:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-25 01:38:03 +0000"
     },
     "done": true
   },
@@ -1831,21 +1807,67 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2025-06-25 02:01:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2025-06-25 01:38:03 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2025-06-25 01:41:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-06-25 01:55:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-25 01:55:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-06-25 01:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-06-25 01:56:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-06-25 01:56:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-06-25 02:12:21 +0000",
+      "minecraft:nether_wastes": "2025-06-25 01:56:13 +0000",
+      "minecraft:soul_sand_valley": "2025-06-25 02:01:57 +0000",
+      "minecraft:basalt_deltas": "2025-06-25 02:07:27 +0000",
+      "minecraft:warped_forest": "2025-06-25 02:22:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-25 01:56:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-25 01:56:31 +0000"
     },
     "done": true
   },
@@ -1867,12 +1889,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/nether_brick_fence": {
-    "criteria": {
-      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-06-25 01:58:48 +0000"
@@ -1891,27 +1907,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-06-25 01:56:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2025-06-25 01:55:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
-    "criteria": {
-      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+      "has_soul_sand": "2025-06-25 02:01:18 +0000"
     },
     "done": true
   },
@@ -1921,9 +1919,39 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
-      "has_backpack": "2025-06-25 01:34:25 +0000"
+      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-25 02:03:51 +0000"
     },
     "done": true
   },
@@ -1933,21 +1961,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2025-06-25 02:05:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-06-25 02:03:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2025-06-25 02:16:30 +0000"
     },
     "done": true
   },
@@ -1957,15 +1973,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "has_gunpowder": "2025-06-25 01:25:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2025-06-25 01:25:36 +0000"
+      "fortress": "2025-06-25 02:03:51 +0000"
     },
     "done": true
   },
@@ -1975,15 +1985,15 @@
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "fortress": "2025-06-25 02:03:51 +0000"
+      "blaze_rod": "2025-06-25 02:05:42 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/nether_brick": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "has_netherrack": "2025-06-25 01:55:50 +0000"
+      "has_blaze_rod": "2025-06-25 02:05:42 +0000"
     },
     "done": true
   },
@@ -1993,15 +2003,189 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
+  "minecraft:nether/find_bastion": {
     "criteria": {
-      "has_log": "2025-06-25 01:20:11 +0000"
+      "bastion": "2025-06-25 02:16:30 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
-      "has_backpack": "2025-06-25 01:34:25 +0000"
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-06-25 02:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-25 02:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-06-25 02:24:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-06-25 02:24:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-06-25 02:26:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-25 02:48:32 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_receptacle_of_familiar": "2025-06-25 02:48:34 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2025-06-25 02:48:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-06-25 02:48:32 +0000"
     },
     "done": true
   },

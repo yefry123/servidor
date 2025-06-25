@@ -292,10 +292,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-06-25 02:33:44 +0000",
       "minecraft:skeleton": "2025-06-23 23:33:16 +0000",
       "minecraft:spider": "2025-06-24 01:46:09 +0000",
+      "minecraft:creeper": "2025-06-25 02:30:49 +0000",
       "minecraft:wither_skeleton": "2025-06-24 02:03:11 +0000",
       "minecraft:cave_spider": "2025-06-24 01:31:19 +0000",
+      "minecraft:stray": "2025-06-25 02:33:21 +0000",
       "minecraft:zombie": "2025-06-24 01:00:37 +0000"
     },
     "done": false
@@ -1954,6 +1957,120 @@
   "tombstone:adventure/discreet_search": {
     "criteria": {
       "coded_trigger": "2025-06-24 03:31:38 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2025-06-25 02:24:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-25 02:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2025-06-25 02:43:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-25 02:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-06-25 02:35:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-06-25 02:34:00 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2025-06-25 02:34:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-06-25 02:35:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-06-25 02:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-06-25 02:35:24 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2025-06-25 02:33:44 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-06-25 02:32:47 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/village_defender": {
+    "criteria": {
+      "coded_trigger": "2025-06-25 02:42:03 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_merchant_campsite": {
+    "criteria": {
+      "location0": "2025-06-25 02:35:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-25 02:43:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-06-25 02:41:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-06-25 02:35:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-06-25 02:23:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-06-25 02:23:38 +0000"
     },
     "done": true
   },
