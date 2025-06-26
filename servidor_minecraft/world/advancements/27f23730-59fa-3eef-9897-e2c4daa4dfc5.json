@@ -15,10 +15,12 @@
     "criteria": {
       "minecraft:frozen_river": "2025-06-25 01:46:49 +0000",
       "minecraft:cherry_grove": "2025-06-25 23:54:12 +0000",
+      "minecraft:birch_forest": "2025-06-26 00:22:50 +0000",
       "minecraft:river": "2025-06-25 23:47:41 +0000",
       "minecraft:snowy_plains": "2025-06-25 01:47:06 +0000",
       "minecraft:snowy_taiga": "2025-06-25 01:34:26 +0000",
       "minecraft:dripstone_caves": "2025-06-25 23:53:19 +0000",
+      "minecraft:forest": "2025-06-26 00:37:52 +0000",
       "minecraft:meadow": "2025-06-25 23:46:01 +0000",
       "minecraft:plains": "2025-06-25 23:46:05 +0000"
     },
@@ -387,8 +389,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-06-25 01:55:19 +0000",
+      "cooked_mutton": "2025-06-26 00:22:55 +0000",
       "cooked_beef": "2025-06-26 00:03:31 +0000",
-      "potato": "2025-06-26 00:08:24 +0000"
+      "potato": "2025-06-26 00:08:24 +0000",
+      "carrot": "2025-06-26 00:20:08 +0000"
     },
     "done": false
   },
@@ -941,9 +945,135 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-26 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-26 00:31:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2025-06-26 00:17:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-06-26 00:31:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-06-26 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-26 00:10:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2025-06-26 00:08:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-26 00:10:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-06-26 00:31:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-06-26 00:21:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-06-26 00:21:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-06-26 00:31:15 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-06-26 00:41:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-06-26 00:11:25 +0000"
     },
     "done": true
   },
@@ -953,9 +1083,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-06-26 00:21:14 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/discreet_search": {
     "criteria": {
       "coded_trigger": "2025-06-26 00:07:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-06-26 00:21:15 +0000"
     },
     "done": true
   },
