@@ -98,3 +98,19 @@
 [26Jun2025 01:38:22.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx has made the advancement [Funeral Theft]
 [26Jun2025 01:40:55.062] [Server thread/WARN] [tombstone/]: The death event of the player Jd_tnx was canceled by another mod
 [26Jun2025 01:40:55.064] [Server thread/INFO] [tombstone/]: The player Jd_tnx has successfully been saved
+[26Jun2025 01:42:41.814] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[26Jun2025 01:42:41.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[26Jun2025 01:43:09.161] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Disconnected
+[26Jun2025 01:43:09.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
+[26Jun2025 01:46:17.462] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jd_tnx lost connection: Disconnected
+[26Jun2025 01:46:17.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx left the game
+[26Jun2025 01:49:32.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [We Need to Go Deeper]
+[26Jun2025 01:50:45.109] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jd_tnx[/172.23.112.251:56868] logged in with entity id 34583 at (-175.87829141764976, 68.0, -3849.5454054657234)
+[26Jun2025 01:50:45.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx joined the game
+[26Jun2025 01:55:54.109] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/36741, l='ServerLevel[world]', x=-940.32, y=121.01, z=-871.89] died: Dinnerbone was shot by Dinnerbone
+[26Jun2025 01:56:05.655] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/36742, l='ServerLevel[world]', x=-941.50, y=121.01, z=-874.85] died: Dinnerbone was shot by Dinnerbone
+[26Jun2025 01:56:10.311] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/37193, l='ServerLevel[world]', x=-939.08, y=121.01, z=-876.19] died: Dinnerbone was shot by Dinnerbone
+[26Jun2025 02:07:59.105] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jd_tnx lost connection: Disconnected
+[26Jun2025 02:07:59.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx left the game
+[26Jun2025 02:09:40.053] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
+[26Jun2025 02:09:40.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
