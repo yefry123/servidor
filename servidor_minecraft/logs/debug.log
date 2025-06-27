@@ -2339,3 +2339,13 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jun2025 03:37:17.196] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
 [27Jun2025 03:37:38.209] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [27Jun2025 03:37:38.213] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 03:42:38.210] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 03:42:38.215] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 03:43:01.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Ambush]
+[27Jun2025 03:43:02.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Voluntary Exile]
+[27Jun2025 03:46:10.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Voluntary Exile]
+[27Jun2025 03:47:38.217] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 03:47:38.221] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 03:49:06.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has completed the challenge [Hero of the Village]
+[27Jun2025 03:49:06.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has completed the challenge [Hero of the Village]
+[27Jun2025 03:49:06.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has completed the challenge [Hero of the Village]
