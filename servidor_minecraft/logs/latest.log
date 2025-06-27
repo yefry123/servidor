@@ -142,3 +142,17 @@
 [27Jun2025 02:36:41.145] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
 [27Jun2025 02:36:41.149] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
 [27Jun2025 02:36:47.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA was slain by Hoglin
+[27Jun2025 02:43:09.395] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:43:09.396] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:43:17.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA withered away
+[27Jun2025 02:43:23.746] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
+[27Jun2025 02:43:23.748] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 02:43:39.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ was slain by Wither Skeleton
+[27Jun2025 02:44:20.144] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:44:20.145] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:44:26.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA withered away
+[27Jun2025 02:45:34.658] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:61146] logged in with entity id 27516 at (-952.102692294555, 141.0, -872.3000000119209)
+[27Jun2025 02:45:34.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[27Jun2025 02:47:07.217] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/27526, l='ServerLevel[world]', x=-941.43, y=121.01, z=-876.21] died: Dinnerbone was shot by Dinnerbone
+[27Jun2025 02:47:47.244] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:47:47.254] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved

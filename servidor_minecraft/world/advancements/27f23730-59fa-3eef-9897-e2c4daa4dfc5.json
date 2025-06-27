@@ -393,6 +393,7 @@
       "chicken": "2025-06-27 02:06:51 +0000",
       "cooked_mutton": "2025-06-26 00:22:55 +0000",
       "cooked_beef": "2025-06-26 00:03:31 +0000",
+      "beef": "2025-06-27 02:37:50 +0000",
       "porkchop": "2025-06-27 02:31:04 +0000",
       "apple": "2025-06-27 02:37:30 +0000",
       "potato": "2025-06-26 00:08:24 +0000",
@@ -406,6 +407,7 @@
     "criteria": {
       "minecraft:pillager": "2025-06-26 00:03:07 +0000",
       "minecraft:skeleton": "2025-06-26 00:07:44 +0000",
+      "minecraft:hoglin": "2025-06-27 02:40:33 +0000",
       "minecraft:spider": "2025-06-25 23:45:30 +0000",
       "minecraft:wither_skeleton": "2025-06-27 02:26:57 +0000",
       "minecraft:zombie": "2025-06-25 23:55:07 +0000"
@@ -1420,6 +1422,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-27 02:38:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-06-27 01:52:03 +0000"
@@ -1474,6 +1482,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2025-06-27 02:38:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
@@ -1501,6 +1515,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-27 01:52:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-27 02:38:11 +0000"
     },
     "done": true
   },
@@ -1570,6 +1590,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-27 02:38:11 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_heavenly_challenger": {
     "criteria": {
       "location0": "2025-06-27 02:24:08 +0000"
@@ -1615,6 +1641,12 @@
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-06-27 01:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-27 02:38:11 +0000"
     },
     "done": true
   },
