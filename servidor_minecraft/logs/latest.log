@@ -156,3 +156,44 @@
 [27Jun2025 02:47:07.217] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/27526, l='ServerLevel[world]', x=-941.43, y=121.01, z=-876.21] died: Dinnerbone was shot by Dinnerbone
 [27Jun2025 02:47:47.244] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
 [27Jun2025 02:47:47.254] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:51:10.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Ambush]
+[27Jun2025 02:52:10.485] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:52:10.503] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:53:00.352] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Disconnected
+[27Jun2025 02:53:00.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
+[27Jun2025 02:55:48.499] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:55:48.501] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:56:24.195] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:56:24.199] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:56:30.896] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:56:30.908] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:56:40.045] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:56:40.050] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:56:47.744] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:56:47.753] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:57:57.597] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:57:57.602] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 03:03:19.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Spooky Scary Skeleton]
+[27Jun2025 03:04:03.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has completed the challenge [Serious Dedication]
+[27Jun2025 03:05:06.947] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 03:05:06.952] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 03:06:13.646] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 03:06:13.651] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 03:06:42.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA was slain by Wither Skeleton
+[27Jun2025 03:07:41.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! -0.3186316171749013,-15.694420234584584,0.4711553624424596
+[27Jun2025 03:07:43.403] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA was kicked for floating too long!
+[27Jun2025 03:07:43.404] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[27Jun2025 03:07:43.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[27Jun2025 03:07:43.449] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[27Jun2025 03:08:20.862] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:62600] logged in with entity id 34002 at (-797.3594875125224, 79.70062109154246, -2761.792511180989)
+[27Jun2025 03:08:20.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[27Jun2025 03:08:24.199] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 03:08:24.200] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 03:08:26.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA froze to death
+[27Jun2025 03:08:26.200] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 03:10:36.897] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 03:10:36.899] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 03:10:53.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA withered away
+[27Jun2025 03:11:46.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has reached the goal [Easy Opening]
+[27Jun2025 03:12:09.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has reached the goal [A Fast Comeback]
+[27Jun2025 03:17:07.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [Enchanter]
