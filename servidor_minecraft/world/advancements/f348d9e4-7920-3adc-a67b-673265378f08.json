@@ -14,6 +14,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-06-23 23:34:14 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-06-27 03:53:27 +0000",
       "minecraft:taiga": "2025-06-23 22:49:02 +0000",
       "minecraft:frozen_river": "2025-06-23 22:39:01 +0000",
       "minecraft:cherry_grove": "2025-06-23 23:25:26 +0000",
@@ -28,6 +29,7 @@
       "minecraft:snowy_taiga": "2025-06-23 22:37:40 +0000",
       "minecraft:forest": "2025-06-23 22:50:01 +0000",
       "minecraft:jungle": "2025-06-24 00:08:13 +0000",
+      "minecraft:ocean": "2025-06-27 04:02:06 +0000",
       "minecraft:windswept_savanna": "2025-06-24 00:31:31 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-24 00:02:55 +0000",
       "minecraft:meadow": "2025-06-23 23:33:38 +0000",
@@ -568,6 +570,7 @@
       "minecraft:piglin": "2025-06-23 23:59:06 +0000",
       "minecraft:enderman": "2025-06-27 03:38:43 +0000",
       "minecraft:zombie": "2025-06-23 22:48:52 +0000",
+      "minecraft:drowned": "2025-06-27 04:05:56 +0000",
       "minecraft:zombie_villager": "2025-06-27 03:02:28 +0000"
     },
     "done": false
@@ -2374,12 +2377,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2025-06-27 03:38:48 +0000"
-    },
-    "done": true
-  },
   "tombstone:adventure/use_purification": {
     "criteria": {
       "has_magic_scroll": "2025-06-27 03:27:53 +0000"
@@ -2389,6 +2386,30 @@
   "tombstone:adventure/use_reach": {
     "criteria": {
       "has_magic_scroll": "2025-06-27 03:29:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-06-27 03:38:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-06-27 03:49:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2025-06-27 03:57:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-06-27 04:07:37 +0000"
     },
     "done": true
   },

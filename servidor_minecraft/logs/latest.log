@@ -229,3 +229,18 @@
 [27Jun2025 03:49:06.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has completed the challenge [Hero of the Village]
 [27Jun2025 03:49:06.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has completed the challenge [Hero of the Village]
 [27Jun2025 03:49:06.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has completed the challenge [Hero of the Village]
+[27Jun2025 03:51:50.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc moved too quickly! -9.540945149453819,-3.024424088213692,0.3134431400339963
+[27Jun2025 04:04:43.544] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Timed out
+[27Jun2025 04:04:43.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[27Jun2025 04:04:50.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[27Jun2025 04:04:50.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[27Jun2025 04:05:05.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:61731] logged in with entity id 56257 at (-2375.607306904544, 63.0, -3809.300000011921)
+[27Jun2025 04:05:05.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[27Jun2025 04:05:06.200] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ShonA[/172.23.68.227:63248] logged in with entity id 56301 at (-2411.9189435634526, 56.384846491599404, -3833.2600177046984)
+[27Jun2025 04:05:06.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA joined the game
+[27Jun2025 04:07:37.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Fishy Business]
+[27Jun2025 04:08:16.194] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
+[27Jun2025 04:08:16.195] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 04:08:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has reached the goal [Strong or Careful]
+[27Jun2025 04:08:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ froze to death
+[27Jun2025 04:08:18.798] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved

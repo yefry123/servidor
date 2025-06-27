@@ -31,6 +31,7 @@
       "minecraft:forest": "2025-06-23 22:49:56 +0000",
       "minecraft:frozen_ocean": "2025-06-24 00:41:09 +0000",
       "minecraft:jungle": "2025-06-25 02:28:44 +0000",
+      "minecraft:ocean": "2025-06-27 04:02:41 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-06-25 01:42:03 +0000",
       "minecraft:snowy_beach": "2025-06-23 23:46:40 +0000",
       "minecraft:windswept_savanna": "2025-06-25 02:43:11 +0000",
@@ -386,6 +387,7 @@
     "criteria": {
       "minecraft:pillager": "2025-06-27 03:43:01 +0000",
       "minecraft:skeleton": "2025-06-23 23:18:57 +0000",
+      "minecraft:vindicator": "2025-06-27 03:47:40 +0000",
       "minecraft:spider": "2025-06-23 22:52:16 +0000",
       "minecraft:creeper": "2025-06-23 22:52:33 +0000",
       "minecraft:wither_skeleton": "2025-06-24 00:47:53 +0000",
@@ -393,6 +395,7 @@
       "minecraft:cave_spider": "2025-06-24 00:58:34 +0000",
       "minecraft:enderman": "2025-06-24 00:47:07 +0000",
       "minecraft:zombie": "2025-06-23 22:48:15 +0000",
+      "minecraft:drowned": "2025-06-27 04:04:37 +0000",
       "minecraft:zombie_villager": "2025-06-25 02:28:45 +0000"
     },
     "done": false
@@ -2311,12 +2314,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-06-27 03:46:10 +0000"
-    },
-    "done": true
-  },
   "tombstone:adventure/ambush": {
     "criteria": {
       "coded_trigger": "2025-06-27 03:43:01 +0000"
@@ -2326,6 +2323,96 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-06-27 03:45:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-06-27 03:46:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-06-27 03:49:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-27 03:50:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2025-06-27 03:57:20 +0000"
     },
     "done": true
   },
