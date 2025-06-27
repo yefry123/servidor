@@ -20,6 +20,7 @@
       "minecraft:bamboo_jungle": "2025-06-24 01:10:13 +0000",
       "minecraft:beach": "2025-06-24 00:28:20 +0000",
       "minecraft:dark_forest": "2025-06-24 00:06:31 +0000",
+      "minecraft:mangrove_swamp": "2025-06-27 18:27:39 +0000",
       "minecraft:sparse_jungle": "2025-06-24 00:24:42 +0000",
       "minecraft:river": "2025-06-23 23:10:54 +0000",
       "minecraft:lukewarm_ocean": "2025-06-24 00:28:10 +0000",
@@ -2701,6 +2702,18 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2025-06-27 02:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-06-27 18:19:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 18:21:49 +0000"
     },
     "done": true
   },

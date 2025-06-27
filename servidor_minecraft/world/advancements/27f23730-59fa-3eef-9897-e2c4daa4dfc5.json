@@ -20,14 +20,20 @@
       "minecraft:birch_forest": "2025-06-26 00:22:50 +0000",
       "minecraft:beach": "2025-06-27 03:52:10 +0000",
       "minecraft:dark_forest": "2025-06-27 03:54:26 +0000",
+      "minecraft:mangrove_swamp": "2025-06-27 18:27:46 +0000",
+      "minecraft:sparse_jungle": "2025-06-27 18:31:26 +0000",
       "minecraft:river": "2025-06-25 23:47:41 +0000",
+      "minecraft:lukewarm_ocean": "2025-06-27 18:26:45 +0000",
       "minecraft:snowy_plains": "2025-06-25 01:47:06 +0000",
       "minecraft:snowy_taiga": "2025-06-25 01:34:26 +0000",
       "minecraft:dripstone_caves": "2025-06-25 23:53:19 +0000",
       "minecraft:forest": "2025-06-26 00:37:52 +0000",
       "minecraft:ocean": "2025-06-27 04:04:03 +0000",
+      "minecraft:jungle": "2025-06-27 18:23:01 +0000",
+      "minecraft:windswept_savanna": "2025-06-27 18:26:13 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-27 02:19:39 +0000",
       "minecraft:meadow": "2025-06-25 23:46:01 +0000",
+      "minecraft:savanna": "2025-06-27 18:28:29 +0000",
       "minecraft:plains": "2025-06-25 23:46:05 +0000"
     },
     "done": false
@@ -2068,6 +2074,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-06-27 18:21:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-06-27 18:12:32 +0000"
@@ -2077,6 +2089,12 @@
   "tombstone:adventure/bone_crusher": {
     "criteria": {
       "coded_trigger": "2025-06-27 18:07:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-27 18:21:42 +0000"
     },
     "done": true
   },

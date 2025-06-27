@@ -80,3 +80,31 @@
 [27Jun2025 18:17:38.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
 [27Jun2025 18:17:51.174] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:50923] logged in with entity id 20807 at (-784.8591174413223, 80.43127977686677, -2802.9296190058935)
 [27Jun2025 18:17:51.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
+[27Jun2025 18:18:51.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected whitespace to end one argument, but found trailing data
+[27Jun2025 18:18:51.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...diamond 64
+/give yefry minecraft:anvil 1<--[HERE]
+[27Jun2025 18:19:11.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Diamond] to yefry
+[27Jun2025 18:19:19.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Anvil] to yefry
+[27Jun2025 18:20:06.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 200 experience levels to yefry
+[27Jun2025 18:20:09.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of FabianTc) moved wrongly! 0.8395484983921051
+[27Jun2025 18:20:09.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of FabianTc) moved wrongly! 0.8755376538042583
+[27Jun2025 18:21:49.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Funeral Theft]
+[27Jun2025 18:22:57.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Diamond Pickaxe] to yefry
+[27Jun2025 18:23:24.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Apple] to yefry
+[27Jun2025 18:24:51.174] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Timed out
+[27Jun2025 18:24:51.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[27Jun2025 18:24:58.878] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:51292] logged in with entity id 29484 at (-503.2548122165484, 71.16610926093821, -3915.360445161074)
+[27Jun2025 18:24:58.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[27Jun2025 18:26:14.028] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
+[27Jun2025 18:26:14.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[27Jun2025 18:26:24.918] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:51304] logged in with entity id 30564 at (-450.2278313061319, 63.875, -3905.0798376290077)
+[27Jun2025 18:26:24.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[27Jun2025 18:27:31.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
+[27Jun2025 18:27:32.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
+[27Jun2025 18:27:32.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
+[27Jun2025 18:27:33.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
+[27Jun2025 18:27:34.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
+[27Jun2025 18:27:35.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
+[27Jun2025 18:27:54.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> [x:-306, y:63, z:-4031, dim:minecraft:overworld]
+[27Jun2025 18:28:07.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> [x:-330, y:63, z:-4012, dim:minecraft:overworld]
+[27Jun2025 18:38:58.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> que

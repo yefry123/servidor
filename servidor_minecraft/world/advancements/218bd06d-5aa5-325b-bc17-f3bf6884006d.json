@@ -15,14 +15,17 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-06-23 23:49:38 +0000",
       "minecraft:taiga": "2025-06-23 22:49:06 +0000",
+      "minecraft:deep_ocean": "2025-06-27 18:16:48 +0000",
       "minecraft:frozen_river": "2025-06-23 22:40:07 +0000",
       "minecraft:sunflower_plains": "2025-06-24 00:17:11 +0000",
       "minecraft:birch_forest": "2025-06-25 02:26:44 +0000",
       "minecraft:bamboo_jungle": "2025-06-25 02:27:30 +0000",
       "minecraft:beach": "2025-06-23 23:49:32 +0000",
       "minecraft:dark_forest": "2025-06-25 02:26:55 +0000",
+      "minecraft:mangrove_swamp": "2025-06-27 18:25:26 +0000",
       "minecraft:sparse_jungle": "2025-06-25 02:42:57 +0000",
       "minecraft:river": "2025-06-23 23:17:13 +0000",
+      "minecraft:lukewarm_ocean": "2025-06-27 18:18:43 +0000",
       "minecraft:snowy_plains": "2025-06-23 22:55:32 +0000",
       "minecraft:stony_shore": "2025-06-27 04:16:06 +0000",
       "minecraft:dripstone_caves": "2025-06-23 22:58:10 +0000",
@@ -31,6 +34,7 @@
       "minecraft:swamp": "2025-06-27 18:07:01 +0000",
       "minecraft:cold_ocean": "2025-06-27 03:27:59 +0000",
       "minecraft:forest": "2025-06-23 22:49:56 +0000",
+      "minecraft:deep_cold_ocean": "2025-06-27 18:15:51 +0000",
       "minecraft:frozen_ocean": "2025-06-24 00:41:09 +0000",
       "minecraft:windswept_forest": "2025-06-27 18:10:28 +0000",
       "minecraft:jungle": "2025-06-25 02:28:44 +0000",
@@ -393,6 +397,7 @@
       "minecraft:vindicator": "2025-06-27 03:47:40 +0000",
       "minecraft:spider": "2025-06-23 22:52:16 +0000",
       "minecraft:creeper": "2025-06-23 22:52:33 +0000",
+      "minecraft:slime": "2025-06-27 18:26:47 +0000",
       "minecraft:witch": "2025-06-27 18:04:52 +0000",
       "minecraft:wither_skeleton": "2025-06-24 00:47:53 +0000",
       "minecraft:husk": "2025-06-23 23:20:20 +0000",
@@ -2417,6 +2422,96 @@
   "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
     "criteria": {
       "has_pitcher_plant": "2025-06-27 03:57:20 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-06-27 18:14:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-06-27 18:15:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-06-27 18:19:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-06-27 18:19:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-06-27 18:19:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-06-27 18:20:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-06-27 18:20:04 +0000"
     },
     "done": true
   },
