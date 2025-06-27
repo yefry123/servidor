@@ -2631,3 +2631,44 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jun2025 04:08:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ froze to death
 [27Jun2025 04:08:18.796] [Server thread/DEBUG] [tombstone/]: A new grave of the player DjstevenZ was created at position [x:-2389, y:66, z:-3791, dim:minecraft:overworld]
 [27Jun2025 04:08:18.798] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 04:09:54.421] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
+[27Jun2025 04:09:54.422] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 04:10:34.246] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 04:10:34.247] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 04:10:51.745] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 04:10:51.746] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 04:10:57.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA was slain by DjstevenZ
+[27Jun2025 04:10:57.762] [Server thread/DEBUG] [tombstone/]: A new grave of the player ShonA was created at position [x:-2378, y:64, z:-3779, dim:minecraft:overworld]
+[27Jun2025 04:11:15.643] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Disconnected
+[27Jun2025 04:11:15.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
+[27Jun2025 04:11:57.595] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA lost connection: Disconnected
+[27Jun2025 04:11:57.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA left the game
+[27Jun2025 04:12:05.197] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
+[27Jun2025 04:12:05.199] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[27Jun2025 04:12:07.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
+[27Jun2025 04:12:07.194] [Server thread/DEBUG] [tombstone/]: A new grave of the player FabianTc was created at position [x:-2373, y:64, z:-3761, dim:minecraft:overworld]
+[27Jun2025 04:12:07.195] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
+[27Jun2025 04:12:38.214] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 04:12:38.219] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 04:17:38.204] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 04:17:38.208] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 04:18:45.396] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[27Jun2025 04:18:45.397] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[27Jun2025 04:18:45.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[27Jun2025 04:18:45.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[27Jun2025 04:18:45.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[27Jun2025 04:18:45.398] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[27Jun2025 04:18:45.399] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[27Jun2025 04:18:45.578] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[27Jun2025 04:18:45.579] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[27Jun2025 04:18:45.579] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[27Jun2025 04:18:45.579] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[27Jun2025 04:18:45.579] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[27Jun2025 04:18:50.610] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[27Jun2025 04:18:50.610] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[27Jun2025 04:18:50.610] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[27Jun2025 04:18:50.611] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[27Jun2025 04:18:50.611] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[27Jun2025 04:18:50.625] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[27Jun2025 04:18:50.626] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[27Jun2025 04:18:50.626] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}

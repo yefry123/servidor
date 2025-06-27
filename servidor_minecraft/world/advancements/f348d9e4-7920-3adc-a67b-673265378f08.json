@@ -617,7 +617,8 @@
       "mutton": "2025-06-23 23:36:49 +0000",
       "bread": "2025-06-23 23:49:51 +0000",
       "golden_apple": "2025-06-27 02:26:28 +0000",
-      "golden_carrot": "2025-06-24 00:50:02 +0000"
+      "golden_carrot": "2025-06-24 00:50:02 +0000",
+      "cod": "2025-06-27 04:09:09 +0000"
     },
     "done": false
   },
@@ -2407,9 +2408,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-06-27 04:11:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2025-06-27 04:07:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-06-27 04:11:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-06-27 04:08:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-06-27 04:08:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-06-27 04:08:35 +0000"
     },
     "done": true
   },
