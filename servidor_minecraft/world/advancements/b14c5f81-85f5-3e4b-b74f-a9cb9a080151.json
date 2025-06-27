@@ -28,8 +28,10 @@
       "minecraft:snowy_taiga": "2025-06-23 22:19:53 +0000",
       "minecraft:dripstone_caves": "2025-06-24 00:47:14 +0000",
       "minecraft:grove": "2025-06-24 01:41:55 +0000",
+      "minecraft:jagged_peaks": "2025-06-27 20:06:59 +0000",
       "minecraft:cold_ocean": "2025-06-23 23:49:08 +0000",
       "minecraft:forest": "2025-06-23 23:53:06 +0000",
+      "minecraft:ice_spikes": "2025-06-27 19:46:12 +0000",
       "minecraft:frozen_ocean": "2025-06-27 19:05:52 +0000",
       "minecraft:deep_frozen_ocean": "2025-06-27 19:06:50 +0000",
       "minecraft:jungle": "2025-06-25 02:53:20 +0000",
@@ -304,9 +306,11 @@
       "minecraft:pillager": "2025-06-25 02:33:44 +0000",
       "minecraft:skeleton": "2025-06-23 23:33:16 +0000",
       "minecraft:vindicator": "2025-06-27 19:26:10 +0000",
+      "minecraft:magma_cube": "2025-06-27 20:13:19 +0000",
       "minecraft:spider": "2025-06-24 01:46:09 +0000",
       "minecraft:creeper": "2025-06-25 02:30:49 +0000",
       "minecraft:evoker": "2025-06-27 19:31:54 +0000",
+      "minecraft:witch": "2025-06-27 19:47:13 +0000",
       "minecraft:wither_skeleton": "2025-06-24 02:03:11 +0000",
       "minecraft:husk": "2025-06-27 18:30:55 +0000",
       "minecraft:cave_spider": "2025-06-24 01:31:19 +0000",
@@ -2234,6 +2238,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-06-27 20:02:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2025-06-27 18:09:03 +0000"
@@ -2246,9 +2256,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-27 20:14:45 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_illager_corsair_or_illager_galley": {
     "criteria": {
       "location0": "2025-06-27 19:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-06-27 20:04:09 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-06-27 20:04:07 +0000"
     },
     "done": true
   },
@@ -2258,15 +2298,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-27 20:14:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2025-06-27 18:32:46 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-06-27 20:17:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
     "criteria": {
       "has_vex_armor_trim_smithing_template": "2025-06-27 18:33:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-27 20:14:45 +0000"
     },
     "done": true
   },
@@ -2288,6 +2358,42 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2025-06-27 20:14:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-06-27 20:04:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-06-27 20:00:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-27 20:02:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
     "criteria": {
       "walk_on_powder_snow_with_leather_boots": "2025-06-27 19:22:44 +0000"
@@ -2297,6 +2403,18 @@
   "dungeons_arise:find_small_blimp": {
     "criteria": {
       "location0": "2025-06-27 19:02:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-06-27 20:00:42 +0000"
     },
     "done": true
   },
@@ -2318,9 +2436,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2025-06-27 18:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
     },
     "done": true
   },
@@ -2330,9 +2460,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-06-27 20:00:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2025-06-27 18:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-06-27 19:46:09 +0000"
     },
     "done": true
   },
