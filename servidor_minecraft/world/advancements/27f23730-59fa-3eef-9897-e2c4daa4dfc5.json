@@ -2074,9 +2074,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
+  "tombstone:adventure/bone_crusher": {
     "criteria": {
-      "has_log": "2025-06-27 18:21:42 +0000"
+      "coded_trigger": "2025-06-27 18:07:54 +0000"
     },
     "done": true
   },
@@ -2086,15 +2086,39 @@
     },
     "done": true
   },
-  "tombstone:adventure/bone_crusher": {
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "coded_trigger": "2025-06-27 18:07:54 +0000"
+      "has_log": "2025-06-27 18:21:42 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-06-27 18:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-06-27 18:39:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-06-27 18:39:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-06-27 18:39:17 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_lighthouse": {
+    "criteria": {
+      "location0": "2025-06-27 18:40:52 +0000"
     },
     "done": true
   },

@@ -24,13 +24,17 @@
       "minecraft:sparse_jungle": "2025-06-25 03:08:32 +0000",
       "minecraft:river": "2025-06-23 23:57:55 +0000",
       "minecraft:snowy_plains": "2025-06-23 23:58:09 +0000",
+      "minecraft:stony_shore": "2025-06-27 19:17:45 +0000",
       "minecraft:snowy_taiga": "2025-06-23 22:19:53 +0000",
       "minecraft:dripstone_caves": "2025-06-24 00:47:14 +0000",
       "minecraft:grove": "2025-06-24 01:41:55 +0000",
       "minecraft:cold_ocean": "2025-06-23 23:49:08 +0000",
       "minecraft:forest": "2025-06-23 23:53:06 +0000",
+      "minecraft:frozen_ocean": "2025-06-27 19:05:52 +0000",
+      "minecraft:deep_frozen_ocean": "2025-06-27 19:06:50 +0000",
       "minecraft:jungle": "2025-06-25 02:53:20 +0000",
       "minecraft:snowy_beach": "2025-06-23 23:49:02 +0000",
+      "minecraft:frozen_peaks": "2025-06-27 19:23:30 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-27 18:02:16 +0000",
       "minecraft:meadow": "2025-06-24 00:22:36 +0000",
       "minecraft:plains": "2025-06-23 23:55:24 +0000"
@@ -299,12 +303,16 @@
     "criteria": {
       "minecraft:pillager": "2025-06-25 02:33:44 +0000",
       "minecraft:skeleton": "2025-06-23 23:33:16 +0000",
+      "minecraft:vindicator": "2025-06-27 19:26:10 +0000",
       "minecraft:spider": "2025-06-24 01:46:09 +0000",
       "minecraft:creeper": "2025-06-25 02:30:49 +0000",
+      "minecraft:evoker": "2025-06-27 19:31:54 +0000",
       "minecraft:wither_skeleton": "2025-06-24 02:03:11 +0000",
       "minecraft:husk": "2025-06-27 18:30:55 +0000",
       "minecraft:cave_spider": "2025-06-24 01:31:19 +0000",
       "minecraft:stray": "2025-06-25 02:33:21 +0000",
+      "minecraft:enderman": "2025-06-27 18:38:56 +0000",
+      "minecraft:vex": "2025-06-27 19:32:19 +0000",
       "minecraft:zombie": "2025-06-24 01:00:37 +0000"
     },
     "done": false
@@ -2232,6 +2240,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-06-27 18:47:55 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location0": "2025-06-27 19:16:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2025-06-27 18:33:52 +0000"
@@ -2268,9 +2288,33 @@
     },
     "done": true
   },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-06-27 19:22:44 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-06-27 19:02:24 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_fort": {
+    "criteria": {
+      "location0": "2025-06-27 19:25:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2025-06-27 18:09:03 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_purification": {
+    "criteria": {
+      "has_magic_scroll": "2025-06-27 18:39:59 +0000"
     },
     "done": true
   },
@@ -2289,6 +2333,12 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2025-06-27 18:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-06-27 19:14:39 +0000"
     },
     "done": true
   },
