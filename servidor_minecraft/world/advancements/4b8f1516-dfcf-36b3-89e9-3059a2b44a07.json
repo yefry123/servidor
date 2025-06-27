@@ -530,6 +530,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-06-27 02:29:57 +0000",
       "cooked_mutton": "2025-06-23 23:39:48 +0000",
       "cooked_beef": "2025-06-23 22:46:45 +0000",
       "apple": "2025-06-23 23:41:11 +0000",
@@ -2489,6 +2490,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2025-06-27 01:50:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2025-06-27 02:31:57 +0000"
     },
     "done": true
   },

@@ -393,6 +393,8 @@
       "chicken": "2025-06-27 02:06:51 +0000",
       "cooked_mutton": "2025-06-26 00:22:55 +0000",
       "cooked_beef": "2025-06-26 00:03:31 +0000",
+      "porkchop": "2025-06-27 02:31:04 +0000",
+      "apple": "2025-06-27 02:37:30 +0000",
       "potato": "2025-06-26 00:08:24 +0000",
       "bread": "2025-06-27 02:09:17 +0000",
       "golden_apple": "2025-06-27 02:27:19 +0000",
@@ -1280,6 +1282,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-06-27 02:28:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-27 02:27:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-06-27 01:52:03 +0000"
@@ -1388,6 +1402,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-27 02:27:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
@@ -1415,6 +1435,12 @@
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-27 01:52:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-27 02:27:57 +0000"
     },
     "done": true
   },
@@ -1598,6 +1624,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-06-27 02:27:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
@@ -1652,6 +1684,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-06-27 02:34:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
@@ -1661,6 +1699,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2025-06-27 02:22:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-06-27 02:35:11 +0000"
     },
     "done": true
   },
