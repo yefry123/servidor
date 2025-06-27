@@ -2189,5 +2189,17 @@
     },
     "done": true
   },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 01:52:06 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 01:46:07 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
