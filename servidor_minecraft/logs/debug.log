@@ -1487,3 +1487,35 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [27Jun2025 01:52:35.475] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [27Jun2025 01:52:35.481] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [27Jun2025 01:54:44.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> shhh
+[27Jun2025 01:57:35.466] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 01:57:35.471] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 01:57:37.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Knowledge raises the soul]
+[27Jun2025 01:57:49.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Cover Me with Diamonds]
+[27Jun2025 02:01:35.450] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
+[27Jun2025 02:01:35.451] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 02:01:37.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ froze to death
+[27Jun2025 02:01:37.827] [Server thread/DEBUG] [tombstone/]: A new grave of the player DjstevenZ was created at position [x:-90, y:67, z:-2094, dim:minecraft:overworld]
+[27Jun2025 02:01:37.830] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 02:02:35.467] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 02:02:35.472] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 02:03:17.448] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
+[27Jun2025 02:03:17.450] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[27Jun2025 02:03:19.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx froze to death
+[27Jun2025 02:03:19.449] [Server thread/DEBUG] [tombstone/]: A new grave of the player V44nxx was created at position [x:-83, y:67, z:-2101, dim:minecraft:overworld]
+[27Jun2025 02:03:19.451] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[27Jun2025 02:04:21.567] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
+[27Jun2025 02:04:21.570] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[27Jun2025 02:04:52.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Hot Stuff]
+[27Jun2025 02:07:35.487] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 02:07:35.492] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 02:08:03.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [The Lighthouse]
+[27Jun2025 02:10:07.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ShonA> te amo<3
+[27Jun2025 02:12:34.450] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:12:34.451] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:12:35.478] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 02:12:35.483] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27Jun2025 02:12:52.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA froze to death
+[27Jun2025 02:12:53.185] [Server thread/DEBUG] [tombstone/]: A new grave of the player ShonA was created at position [x:-477, y:71, z:-2217, dim:minecraft:overworld]
+[27Jun2025 02:12:54.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [The Most Useful Key]
+[27Jun2025 02:17:35.469] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27Jun2025 02:17:35.474] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

@@ -76,3 +76,22 @@
 [27Jun2025 01:51:47.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ShonA moved too quickly! 4.717398881060831,0.7477966597462711,8.861117989935792
 [27Jun2025 01:52:06.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has reached the goal [Bone Crusher]
 [27Jun2025 01:54:44.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> shhh
+[27Jun2025 01:57:37.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Knowledge raises the soul]
+[27Jun2025 01:57:49.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Cover Me with Diamonds]
+[27Jun2025 02:01:35.450] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
+[27Jun2025 02:01:35.451] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 02:01:37.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ froze to death
+[27Jun2025 02:01:37.830] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
+[27Jun2025 02:03:17.448] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
+[27Jun2025 02:03:17.450] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[27Jun2025 02:03:19.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx froze to death
+[27Jun2025 02:03:19.451] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[27Jun2025 02:04:21.567] [Server thread/WARN] [tombstone/]: The death event of the player V44nxx was canceled by another mod
+[27Jun2025 02:04:21.570] [Server thread/INFO] [tombstone/]: The player V44nxx has successfully been saved
+[27Jun2025 02:04:52.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [Hot Stuff]
+[27Jun2025 02:08:03.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [The Lighthouse]
+[27Jun2025 02:10:07.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ShonA> te amo<3
+[27Jun2025 02:12:34.450] [Server thread/WARN] [tombstone/]: The death event of the player ShonA was canceled by another mod
+[27Jun2025 02:12:34.451] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
+[27Jun2025 02:12:52.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA froze to death
+[27Jun2025 02:12:54.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [The Most Useful Key]
