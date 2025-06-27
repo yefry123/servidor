@@ -20,6 +20,7 @@
       "minecraft:cherry_grove": "2025-06-24 00:22:46 +0000",
       "minecraft:bamboo_jungle": "2025-06-25 02:53:41 +0000",
       "minecraft:beach": "2025-06-23 23:49:09 +0000",
+      "minecraft:dark_forest": "2025-06-27 18:04:12 +0000",
       "minecraft:sparse_jungle": "2025-06-25 03:08:32 +0000",
       "minecraft:river": "2025-06-23 23:57:55 +0000",
       "minecraft:snowy_plains": "2025-06-23 23:58:09 +0000",
@@ -30,6 +31,7 @@
       "minecraft:forest": "2025-06-23 23:53:06 +0000",
       "minecraft:jungle": "2025-06-25 02:53:20 +0000",
       "minecraft:snowy_beach": "2025-06-23 23:49:02 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-27 18:02:16 +0000",
       "minecraft:meadow": "2025-06-24 00:22:36 +0000",
       "minecraft:plains": "2025-06-23 23:55:24 +0000"
     },
@@ -348,12 +350,14 @@
       "honey_bottle": "2025-06-24 01:10:43 +0000",
       "cooked_mutton": "2025-06-24 01:31:28 +0000",
       "sweet_berries": "2025-06-24 00:20:04 +0000",
+      "beef": "2025-06-27 18:00:19 +0000",
       "porkchop": "2025-06-24 01:42:23 +0000",
       "apple": "2025-06-24 01:00:14 +0000",
       "pumpkin_pie": "2025-06-24 00:34:59 +0000",
       "mutton": "2025-06-24 00:20:57 +0000",
       "bread": "2025-06-23 23:37:16 +0000",
       "golden_apple": "2025-06-24 01:26:03 +0000",
+      "melon_slice": "2025-06-27 18:09:20 +0000",
       "golden_carrot": "2025-06-24 01:57:35 +0000",
       "cooked_chicken": "2025-06-23 23:51:25 +0000",
       "enchanted_golden_apple": "2025-06-24 01:48:22 +0000",
@@ -2209,15 +2213,51 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_guard": {
+    "criteria": {
+      "coded_trigger": "2025-06-25 03:05:05 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_lighthouse": {
     "criteria": {
       "location0": "2025-06-25 03:09:08 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/use_guard": {
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
-      "coded_trigger": "2025-06-25 03:05:05 +0000"
+      "has_melon": "2025-06-27 18:09:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-06-27 18:09:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-06-27 18:09:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-06-27 18:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-06-27 18:03:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-06-27 18:03:47 +0000"
     },
     "done": true
   },
