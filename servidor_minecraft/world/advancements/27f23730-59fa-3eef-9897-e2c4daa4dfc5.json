@@ -21,6 +21,7 @@
       "minecraft:snowy_taiga": "2025-06-25 01:34:26 +0000",
       "minecraft:dripstone_caves": "2025-06-25 23:53:19 +0000",
       "minecraft:forest": "2025-06-26 00:37:52 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-27 02:19:39 +0000",
       "minecraft:meadow": "2025-06-25 23:46:01 +0000",
       "minecraft:plains": "2025-06-25 23:46:05 +0000"
     },
@@ -394,6 +395,7 @@
       "cooked_beef": "2025-06-26 00:03:31 +0000",
       "potato": "2025-06-26 00:08:24 +0000",
       "bread": "2025-06-27 02:09:17 +0000",
+      "golden_apple": "2025-06-27 02:27:19 +0000",
       "carrot": "2025-06-26 00:20:08 +0000"
     },
     "done": false
@@ -403,6 +405,7 @@
       "minecraft:pillager": "2025-06-26 00:03:07 +0000",
       "minecraft:skeleton": "2025-06-26 00:07:44 +0000",
       "minecraft:spider": "2025-06-25 23:45:30 +0000",
+      "minecraft:wither_skeleton": "2025-06-27 02:26:57 +0000",
       "minecraft:zombie": "2025-06-25 23:55:07 +0000"
     },
     "done": false
@@ -1145,6 +1148,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-27 01:56:58 +0000"
@@ -1175,6 +1184,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-06-27 02:18:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
@@ -1199,9 +1214,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
     },
     "done": true
   },
@@ -1223,6 +1250,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-06-27 02:18:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-27 01:52:45 +0000"
@@ -1235,9 +1274,21 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-06-27 02:22:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-06-27 01:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-06-27 02:22:10 +0000"
     },
     "done": true
   },
@@ -1295,6 +1346,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-06-27 02:22:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-06-27 01:50:54 +0000"
@@ -1334,6 +1391,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
     },
     "done": true
   },
@@ -1415,6 +1478,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-06-27 01:52:03 +0000"
@@ -1439,6 +1508,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-06-27 01:50:54 +0000"
@@ -1448,6 +1523,12 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-06-27 01:45:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-27 02:22:10 +0000"
     },
     "done": true
   },
@@ -1463,9 +1544,21 @@
     },
     "done": true
   },
+  "dungeons_arise:find_heavenly_challenger": {
+    "criteria": {
+      "location0": "2025-06-27 02:24:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-27 01:52:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-27 02:22:12 +0000"
     },
     "done": true
   },
@@ -1547,6 +1640,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 02:26:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-06-27 01:45:44 +0000"
@@ -1556,6 +1655,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2025-06-27 01:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-06-27 02:22:12 +0000"
     },
     "done": true
   },

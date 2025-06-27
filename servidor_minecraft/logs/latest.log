@@ -95,3 +95,11 @@
 [27Jun2025 02:12:34.451] [Server thread/INFO] [tombstone/]: The player ShonA has successfully been saved
 [27Jun2025 02:12:52.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA froze to death
 [27Jun2025 02:12:54.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [The Most Useful Key]
+[27Jun2025 02:19:28.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ moved too quickly! -1.7411066494895522,-1.127890238205481,-10.117842574873976
+[27Jun2025 02:22:12.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Into Fire]
+[27Jun2025 02:22:23.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [The Imperial March]
+[27Jun2025 02:24:08.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ShonA has made the advancement [The Imperial March]
+[27Jun2025 02:24:08.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [The Imperial March]
+[27Jun2025 02:26:57.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Ashes 'n Bones]
+[27Jun2025 02:27:24.447] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
+[27Jun2025 02:27:24.448] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
