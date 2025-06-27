@@ -2360,15 +2360,27 @@
     },
     "done": true
   },
+  "tombstone:adventure/easy_opening": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 03:11:46 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/teleport_to_grave": {
     "criteria": {
       "coded_trigger": "2025-06-27 03:12:09 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/easy_opening": {
+  "tombstone:adventure/use_purification": {
     "criteria": {
-      "coded_trigger": "2025-06-27 03:11:46 +0000"
+      "has_magic_scroll": "2025-06-27 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_reach": {
+    "criteria": {
+      "has_magic_scroll": "2025-06-27 03:29:17 +0000"
     },
     "done": true
   },

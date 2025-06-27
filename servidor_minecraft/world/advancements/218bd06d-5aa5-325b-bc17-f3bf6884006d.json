@@ -27,6 +27,7 @@
       "minecraft:dripstone_caves": "2025-06-23 22:58:10 +0000",
       "minecraft:snowy_taiga": "2025-06-23 22:37:42 +0000",
       "minecraft:grove": "2025-06-26 00:00:49 +0000",
+      "minecraft:cold_ocean": "2025-06-27 03:27:59 +0000",
       "minecraft:forest": "2025-06-23 22:49:56 +0000",
       "minecraft:frozen_ocean": "2025-06-24 00:41:09 +0000",
       "minecraft:jungle": "2025-06-25 02:28:44 +0000",
@@ -2273,12 +2274,6 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2025-06-27 03:17:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-06-27 03:07:33 +0000"
@@ -2288,6 +2283,30 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-06-27 03:07:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-06-27 03:17:07 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 03:26:15 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_heavenly_challenger": {
+    "criteria": {
+      "location0": "2025-06-27 03:31:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-06-27 03:34:54 +0000"
     },
     "done": true
   },
