@@ -60,3 +60,13 @@
 [30Jun2025 02:48:40.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: erfe<--[HERE]
 [30Jun2025 02:48:58.894] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:52328] logged in with entity id 220 at (-3447.3312003115902, 62.232574511425995, -13849.142794065116)
 [30Jun2025 02:48:58.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
+[30Jun2025 02:52:11.831] [Netty Epoll Server IO #6/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [tombstone:tombstone_channel,playerrevive:main,currently_currency:currently_currency,sophisticatedbackpacks:channel,creativecore:main,sophisticatedcore:channel] rejected vanilla connections
+[30Jun2025 02:52:11.832] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/172.23.112.251:60708] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[30Jun2025 02:53:57.579] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jd_tnx[/172.23.112.251:60850] logged in with entity id 2274 at (126.14356360800573, 223.0, -4714.669842283284)
+[30Jun2025 02:53:57.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx joined the game
+[30Jun2025 02:55:01.705] [Server thread/WARN] [tombstone/]: The death event of the player Jd_tnx was canceled by another mod
+[30Jun2025 02:55:01.725] [Server thread/INFO] [tombstone/]: The player Jd_tnx has successfully been saved
+[30Jun2025 02:55:21.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx has reached the goal [Strong or Careful]
+[30Jun2025 02:55:21.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx fell from a high place
+[30Jun2025 02:55:21.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx has made the advancement [Your First Grave]
+[30Jun2025 02:55:50.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx has reached the goal [Here They Come]
