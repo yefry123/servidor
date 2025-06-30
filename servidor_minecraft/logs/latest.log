@@ -70,3 +70,14 @@
 [30Jun2025 02:55:21.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx fell from a high place
 [30Jun2025 02:55:21.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx has made the advancement [Your First Grave]
 [30Jun2025 02:55:50.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx has reached the goal [Here They Come]
+[30Jun2025 03:02:56.494] [Server thread/WARN] [tombstone/]: The death event of the player Jd_tnx was canceled by another mod
+[30Jun2025 03:02:56.495] [Server thread/INFO] [tombstone/]: The player Jd_tnx has successfully been saved
+[30Jun2025 03:02:58.071] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jd_tnx lost connection: Disconnected
+[30Jun2025 03:02:58.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx left the game
+[30Jun2025 03:02:58.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jd_tnx fell from a high place
+[30Jun2025 03:05:00.912] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
+[30Jun2025 03:05:00.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
+[30Jun2025 03:08:51.573] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:50429] logged in with entity id 7339 at (-1016.7547733728488, 89.0, -20636.21481767246)
+[30Jun2025 03:08:51.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
+[30Jun2025 03:18:02.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Disconnected
+[30Jun2025 03:18:02.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game

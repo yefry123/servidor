@@ -35,6 +35,7 @@
       "minecraft:forest": "2025-06-23 22:44:19 +0000",
       "minecraft:ice_spikes": "2025-06-27 19:04:13 +0000",
       "minecraft:frozen_ocean": "2025-06-27 19:05:14 +0000",
+      "minecraft:windswept_forest": "2025-06-30 03:15:38 +0000",
       "minecraft:jungle": "2025-06-24 00:08:11 +0000",
       "minecraft:ocean": "2025-06-27 19:54:52 +0000",
       "minecraft:snowy_beach": "2025-06-27 19:08:25 +0000",
@@ -2849,12 +2850,6 @@
     },
     "done": true
   },
-  "dungeons_arise:find_wishing_well": {
-    "criteria": {
-      "location0": "2025-06-27 20:38:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2025-06-27 20:23:49 +0000"
@@ -2864,6 +2859,12 @@
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_kelp": "2025-06-27 20:23:49 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_wishing_well": {
+    "criteria": {
+      "location0": "2025-06-27 20:38:32 +0000"
     },
     "done": true
   },
