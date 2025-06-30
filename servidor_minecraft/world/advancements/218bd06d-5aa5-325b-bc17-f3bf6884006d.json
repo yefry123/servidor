@@ -20,6 +20,7 @@
       "minecraft:frozen_river": "2025-06-23 22:40:07 +0000",
       "minecraft:sunflower_plains": "2025-06-24 00:17:11 +0000",
       "minecraft:birch_forest": "2025-06-25 02:26:44 +0000",
+      "minecraft:windswept_hills": "2025-06-27 20:30:17 +0000",
       "minecraft:bamboo_jungle": "2025-06-25 02:27:30 +0000",
       "minecraft:beach": "2025-06-23 23:49:32 +0000",
       "minecraft:dark_forest": "2025-06-25 02:26:55 +0000",
@@ -48,6 +49,7 @@
       "minecraft:frozen_peaks": "2025-06-26 00:00:09 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-25 02:25:07 +0000",
       "minecraft:meadow": "2025-06-24 00:29:12 +0000",
+      "minecraft:windswept_gravelly_hills": "2025-06-27 20:35:30 +0000",
       "minecraft:savanna": "2025-06-25 02:38:36 +0000",
       "minecraft:plains": "2025-06-23 23:15:46 +0000"
     },
@@ -2540,27 +2542,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2025-06-27 19:23:50 +0000"
-    },
-    "done": true
-  },
   "tombstone:adventure/fortuitous_militia": {
     "criteria": {
       "coded_trigger": "2025-06-27 19:07:25 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_illager_campsite": {
-    "criteria": {
-      "location0": "2025-06-27 20:13:29 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/village_defender": {
-    "criteria": {
-      "coded_trigger": "2025-06-27 19:23:28 +0000"
     },
     "done": true
   },
@@ -2570,15 +2554,33 @@
     },
     "done": true
   },
-  "tombstone:adventure/use_guard": {
+  "tombstone:adventure/village_defender": {
     "criteria": {
-      "coded_trigger": "2025-06-27 20:17:24 +0000"
+      "coded_trigger": "2025-06-27 19:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-06-27 19:23:50 +0000"
     },
     "done": true
   },
   "sophisticatedbackpacks:recipes/misc/gold_backpack": {
     "criteria": {
       "has_iron_backpack": "2025-06-27 19:35:04 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_campsite": {
+    "criteria": {
+      "location0": "2025-06-27 20:13:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_guard": {
+    "criteria": {
+      "coded_trigger": "2025-06-27 20:17:24 +0000"
     },
     "done": true
   },

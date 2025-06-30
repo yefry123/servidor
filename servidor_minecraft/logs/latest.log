@@ -1,362 +1,62 @@
-[27Jun2025 17:58:19.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[27Jun2025 17:58:19.972] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[27Jun2025 17:58:20.305] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[27Jun2025 17:58:20.364] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[27Jun2025 17:58:20.566] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jun2025 17:58:20.569] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jun2025 17:58:20.571] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jun2025 17:58:20.572] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[27Jun2025 17:58:20.660] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Jun2025 17:58:22.296] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[27Jun2025 17:58:22.314] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[27Jun2025 17:58:29.075] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[27Jun2025 17:58:29.079] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[27Jun2025 17:58:30.097] [main/INFO] [journeymap/]: Initializing Packet Registries
-[27Jun2025 17:58:30.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[27Jun2025 17:58:30.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.8 Target: null
-[27Jun2025 17:58:30.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Jun2025 17:58:30.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[27Jun2025 17:58:30.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[27Jun2025 17:58:31.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[27Jun2025 17:58:31.696] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Jun2025 17:58:32.425] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
-[27Jun2025 17:58:32.426] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
-[27Jun2025 17:58:34.310] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[27Jun2025 17:58:34.412] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1548 advancements
-[27Jun2025 17:58:35.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[27Jun2025 17:58:35.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[27Jun2025 17:58:35.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[27Jun2025 17:58:35.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Jun2025 17:58:35.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[27Jun2025 17:58:35.230] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[27Jun2025 17:58:35.318] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[27Jun2025 17:58:35.318] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[27Jun2025 17:58:35.318] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[27Jun2025 17:58:35.319] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[27Jun2025 17:58:35.345] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Jun2025 17:58:35.347] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[27Jun2025 17:58:35.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[27Jun2025 17:58:38.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Jun2025 17:58:41.827] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.858] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.881] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.902] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.916] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.933] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.959] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:41.968] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:42.358] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:42.857] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Jun2025 17:58:43.357] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[27Jun2025 17:58:43.859] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[27Jun2025 17:58:44.078] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5722 ms
-[27Jun2025 17:58:44.079] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.746s)! For help, type "help"
-[27Jun2025 17:58:44.108] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Jun2025 17:59:10.138] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:56082] logged in with entity id 220 at (148.55221328390317, 63.0, -4926.300000011921)
-[27Jun2025 17:59:10.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[27Jun2025 17:59:13.339] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3193ms or 63 ticks behind
-[27Jun2025 17:59:40.258] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yefry lost connection: Timed out
-[27Jun2025 17:59:40.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry left the game
-[27Jun2025 17:59:47.070] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yefry[/172.23.39.99:56087] logged in with entity id 500 at (148.55221328390317, 63.0, -4926.300000011921)
-[27Jun2025 17:59:47.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry joined the game
-[27Jun2025 17:59:48.247] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@5a3b65df[id=<null>,name=DjstevenZ,properties={},legacy=false] (/172.23.57.170:50209): Took too long to log in
-[27Jun2025 17:59:48.248] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5a3b65df[id=<null>,name=DjstevenZ,properties={},legacy=false] (/172.23.57.170:50209) lost connection: Took too long to log in
-[27Jun2025 17:59:48.250] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[27Jun2025 18:01:00.021] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50234] logged in with entity id 1055 at (-2376.320046189813, 66.0, -3789.671396788132)
-[27Jun2025 18:01:00.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[27Jun2025 18:03:18.323] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:51251] logged in with entity id 2825 at (-4106.824468097557, 66.25220334025373, -3866.3993838591123)
-[27Jun2025 18:03:18.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[27Jun2025 18:04:56.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
-[27Jun2025 18:05:45.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> t
-[27Jun2025 18:07:54.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has reached the goal [Bone Crusher]
-[27Jun2025 18:12:32.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [Best Friends Forever]
-[27Jun2025 18:13:39.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of DjstevenZ) moved wrongly! 0.289657435922436
-[27Jun2025 18:13:39.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of DjstevenZ) moved wrongly! 0.611269064625958
-[27Jun2025 18:16:55.235] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:50887] logged in with entity id 19412 at (-799.3000000119209, 208.0, -2809.668658746337)
-[27Jun2025 18:16:55.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
-[27Jun2025 18:17:37.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx moved too quickly! 0.4037309607822408,-17.379140178385,-0.15366657871163625
-[27Jun2025 18:17:37.965] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx was kicked for floating too long!
-[27Jun2025 18:17:38.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Flying is not enabled on this server
-[27Jun2025 18:17:38.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
-[27Jun2025 18:17:51.174] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:50923] logged in with entity id 20807 at (-784.8591174413223, 80.43127977686677, -2802.9296190058935)
-[27Jun2025 18:17:51.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
-[27Jun2025 18:18:51.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected whitespace to end one argument, but found trailing data
-[27Jun2025 18:18:51.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...diamond 64
-/give yefry minecraft:anvil 1<--[HERE]
-[27Jun2025 18:19:11.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Diamond] to yefry
-[27Jun2025 18:19:19.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Anvil] to yefry
-[27Jun2025 18:20:06.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 200 experience levels to yefry
-[27Jun2025 18:20:09.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of FabianTc) moved wrongly! 0.8395484983921051
-[27Jun2025 18:20:09.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of FabianTc) moved wrongly! 0.8755376538042583
-[27Jun2025 18:21:49.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [Funeral Theft]
-[27Jun2025 18:22:57.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Diamond Pickaxe] to yefry
-[27Jun2025 18:23:24.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Apple] to yefry
-[27Jun2025 18:24:51.174] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Timed out
-[27Jun2025 18:24:51.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[27Jun2025 18:24:58.878] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:51292] logged in with entity id 29484 at (-503.2548122165484, 71.16610926093821, -3915.360445161074)
-[27Jun2025 18:24:58.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[27Jun2025 18:26:14.028] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Disconnected
-[27Jun2025 18:26:14.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[27Jun2025 18:26:24.918] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:51304] logged in with entity id 30564 at (-450.2278313061319, 63.875, -3905.0798376290077)
-[27Jun2025 18:26:24.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[27Jun2025 18:27:31.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
-[27Jun2025 18:27:32.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
-[27Jun2025 18:27:32.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
-[27Jun2025 18:27:33.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
-[27Jun2025 18:27:34.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
-[27Jun2025 18:27:35.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to yefry
-[27Jun2025 18:27:54.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> [x:-306, y:63, z:-4031, dim:minecraft:overworld]
-[27Jun2025 18:28:07.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> [x:-330, y:63, z:-4012, dim:minecraft:overworld]
-[27Jun2025 18:38:58.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> que
-[27Jun2025 18:39:59.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has reached the goal [A little cleaning is necessary]
-[27Jun2025 18:40:33.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> verga eso me enveneo
-[27Jun2025 18:40:39.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> me quito 5 corazones
-[27Jun2025 18:40:52.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ has made the advancement [The Lighthouse]
-[27Jun2025 18:41:01.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> ahora me toca ami
-[27Jun2025 18:41:34.509] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 18:41:34.510] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 18:41:34.513] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 18:41:34.515] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 18:41:34.527] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 18:41:34.528] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 18:42:05.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> toy mamadisimo
-[27Jun2025 18:42:13.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> si miro lo que salio cuando me pego
-[27Jun2025 18:42:21.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> eso refleja en daño
-[27Jun2025 18:43:21.271] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[27Jun2025 18:43:21.272] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:43:26.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc was killed by yefry using magic
-[27Jun2025 18:43:26.715] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:43:57.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> espere
-[27Jun2025 18:44:24.644] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[27Jun2025 18:44:24.645] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:44:27.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has reached the goal [Chain Death]
-[27Jun2025 18:44:27.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
-[27Jun2025 18:44:27.262] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:44:41.057] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc was kicked for floating too long!
-[27Jun2025 18:44:41.109] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc lost connection: Flying is not enabled on this server
-[27Jun2025 18:44:41.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc left the game
-[27Jun2025 18:44:52.513] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:51332] logged in with entity id 39475 at (161.97752371244388, 66.1013273488099, -4938.642121823885)
-[27Jun2025 18:44:52.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
-[27Jun2025 18:45:34.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <V44nxx> ya vengo bros, esperenme un momento
-[27Jun2025 18:45:35.757] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx lost connection: Disconnected
-[27Jun2025 18:45:35.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx left the game
-[27Jun2025 18:45:41.703] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Disconnected
-[27Jun2025 18:45:41.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[27Jun2025 18:46:22.353] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[27Jun2025 18:46:22.354] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:46:25.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
-[27Jun2025 18:46:25.255] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:47:01.254] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[27Jun2025 18:47:01.255] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:47:04.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc froze to death
-[27Jun2025 18:47:04.262] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 18:48:40.964] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: V44nxx[/172.23.249.64:52548] logged in with entity id 40681 at (104.30000001192093, 63.0, -4816.300000011921)
-[27Jun2025 18:48:40.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx joined the game
-[27Jun2025 18:49:12.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [The Lighthouse]
-[27Jun2025 18:49:38.578] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DjstevenZ[/172.23.57.170:50345] logged in with entity id 41291 at (178.614847064385, 63.0, -4949.64460091624)
-[27Jun2025 18:49:38.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ joined the game
-[27Jun2025 18:57:57.262] [Server thread/WARN] [tombstone/]: The death event of the player DjstevenZ was canceled by another mod
-[27Jun2025 18:57:57.264] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
-[27Jun2025 18:57:59.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ froze to death
-[27Jun2025 18:57:59.879] [Server thread/INFO] [tombstone/]: The player DjstevenZ has successfully been saved
-[27Jun2025 18:58:55.461] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DjstevenZ lost connection: Disconnected
-[27Jun2025 18:58:55.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DjstevenZ left the game
-[27Jun2025 19:02:08.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yefry> sa
-[27Jun2025 19:02:33.409] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/52478, l='ServerLevel[world]', x=314.37, y=74.00, z=-6994.28] died, message: 'Villager suffocated in a wall'
-[27Jun2025 19:02:33.463] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/52498, l='ServerLevel[world]', x=305.37, y=93.00, z=-7068.28] died, message: 'Villager suffocated in a wall'
-[27Jun2025 19:06:09.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [You Are A Pirate]
-[27Jun2025 19:07:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has reached the goal [Fortuitous Militia]
-[27Jun2025 19:10:02.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Diamond Boots] to yefry
-[27Jun2025 19:13:18.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 3.659853687566425,0.0,-9.68948868111329
-[27Jun2025 19:13:18.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 4.289399596240855,0.0,-11.017665623641733
-[27Jun2025 19:13:19.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 2.498628756352474,0.0,-10.470984264438812
-[27Jun2025 19:13:20.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -16.654759288760374,0.0,44.76814166559234
-[27Jun2025 19:13:20.739] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -16.654759288760374,0.0,44.76814166559234
-[27Jun2025 19:13:20.740] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -16.188083567992066,0.0,44.642488563784354
-[27Jun2025 19:13:20.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -15.691053067297787,0.0,44.51436456608644
-[27Jun2025 19:13:20.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -15.164005517131471,0.0,44.386962918732024
-[27Jun2025 19:13:20.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -14.607502751196392,0.0,44.26265769044039
-[27Jun2025 19:13:20.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -14.022190373111869,0.0,44.14303105763793
-[27Jun2025 19:13:20.972] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -13.408705715395513,0.0,44.02890779883455
-[27Jun2025 19:13:21.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -12.767628210688855,0.0,43.9203766133287
-[27Jun2025 19:13:21.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -12.134384618909223,0.0,43.8143671377602
-[27Jun2025 19:13:21.128] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -11.508809998322278,0.0,43.71068008819748
-[27Jun2025 19:13:21.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -10.890746949596576,0.0,43.609036577587176
-[27Jun2025 19:13:21.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -10.596132488228847,0.0,22.69349530796535
-[27Jun2025 19:13:21.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -9.986837002885096,0.0,22.59040825638658
-[27Jun2025 19:13:21.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -9.386420727118804,0.0,22.485632502975932
-[27Jun2025 19:13:21.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -8.795077175426172,0.0,22.378904756145857
-[27Jun2025 19:13:21.382] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -8.213090572248376,0.0,22.269964202456322
-[27Jun2025 19:13:21.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -7.640839168777063,0.0,22.1585794060029
-[27Jun2025 19:13:21.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -7.078796503314521,0.0,22.044577552611372
-[27Jun2025 19:13:21.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -6.527524191470462,0.0,21.92787792931449
-[27Jun2025 19:13:21.566] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -5.987655176869595,0.0,21.8085265944992
-[27Jun2025 19:13:21.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -5.459866665666027,0.0,21.686729731358355
-[27Jun2025 19:13:23.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 9.064546589771084,-0.11999999731779099,-4.773021525006698
-[27Jun2025 19:13:23.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 9.561104534656806,-0.4615000000000009,-5.046836854218782
-[27Jun2025 19:13:23.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 10.008006673215107,-0.46275010764433233,-5.293270643980577
-[27Jun2025 19:13:23.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 10.410218587262591,-0.46483522308928826,-5.515061048890857
-[27Jun2025 19:13:23.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 10.772209300315836,-0.4673755079930544,-5.714672408023034
-[27Jun2025 19:13:23.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 0.9901456207007584
-[27Jun2025 19:13:23.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.283] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.300] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.329] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.542] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:13:23.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 1.0
-[27Jun2025 19:16:40.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [You Are A Pirate]
-[27Jun2025 19:19:32.619] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9173ms or 183 ticks behind
-[27Jun2025 19:20:34.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Cooked Porkchop] to yefry
-[27Jun2025 19:21:26.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 16 [Ender Pearl] to yefry
-[27Jun2025 19:22:44.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Light as a Rabbit]
-[27Jun2025 19:23:28.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has completed the challenge [Village Defender]
-[27Jun2025 19:23:50.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has reached the goal [Postmortal]
-[27Jun2025 19:23:50.153] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:26:12.804] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[27Jun2025 19:26:12.822] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[27Jun2025 19:27:12.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry was slain by Vindicator
-[27Jun2025 19:27:19.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 16 [Ender Pearl] to yefry
-[27Jun2025 19:29:04.403] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[27Jun2025 19:29:04.415] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[27Jun2025 19:31:49.612] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:32:22.963] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:32:35.259] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[27Jun2025 19:32:35.271] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:32:39.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc was killed by yefry using magic
-[27Jun2025 19:32:39.163] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:34:52.095] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=111, y=129, z=-9618} BlockPos{x=110, y=128, z=-9620}
-[27Jun2025 19:34:52.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=111, y=129, z=-9619} BlockPos{x=110, y=128, z=-9620}
-[27Jun2025 19:34:55.919] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=111, y=129, z=-9621} BlockPos{x=110, y=128, z=-9621}
-[27Jun2025 19:34:56.169] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:35:07.054] [Server thread/WARN] [tombstone/]: The death event of the player FabianTc was canceled by another mod
-[27Jun2025 19:35:07.079] [Server thread/INFO] [tombstone/]: The player FabianTc has successfully been saved
-[27Jun2025 19:36:07.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc was slain by Vindicator
-[27Jun2025 19:37:33.453] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
-[27Jun2025 19:37:33.461] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
-[27Jun2025 19:37:33.462] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
-[27Jun2025 19:37:33.463] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
-[27Jun2025 19:37:33.464] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
-[27Jun2025 19:37:33.464] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
-[27Jun2025 19:37:33.466] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
-[27Jun2025 19:37:33.489] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
-[27Jun2025 19:37:33.491] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
-[27Jun2025 19:37:33.491] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
-[27Jun2025 19:37:33.492] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
-[27Jun2025 19:37:33.493] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
-[27Jun2025 19:37:33.494] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
-[27Jun2025 19:37:33.515] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
-[27Jun2025 19:37:33.515] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
-[27Jun2025 19:37:33.516] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
-[27Jun2025 19:37:33.516] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
-[27Jun2025 19:37:33.517] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
-[27Jun2025 19:41:25.680] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=104, y=135, z=-9621} BlockPos{x=104, y=135, z=-9622}
-[27Jun2025 19:42:27.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has reached the goal [Magic Siphoner]
-[27Jun2025 19:42:33.480] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=129, y=124, z=-9618} BlockPos{x=130, y=123, z=-9618}
-[27Jun2025 19:42:33.635] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=129, y=124, z=-9618} BlockPos{x=130, y=123, z=-9618}
-[27Jun2025 19:47:26.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has made the advancement [People Are Strange]
-[27Jun2025 19:48:02.371] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootTable/]: Tried to over-fill a container
-[27Jun2025 19:50:34.656] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/97843, l='ServerLevel[world]', x=126.23, y=70.00, z=-13412.95] died, message: 'Fisherman was slain by Vindicator'
-[27Jun2025 19:50:49.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: V44nxx has reached the goal [Fortuitous Militia]
-[27Jun2025 19:51:02.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Seed: [8626332054023377048]
-[27Jun2025 19:57:07.700] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
-[27Jun2025 19:57:07.701] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
-[27Jun2025 19:57:07.701] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
-[27Jun2025 19:57:07.702] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
-[27Jun2025 19:57:07.702] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
-[27Jun2025 19:57:12.764] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
-[27Jun2025 19:57:12.765] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
-[27Jun2025 19:57:12.765] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
-[27Jun2025 19:58:34.252] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 19:58:34.252] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 19:58:34.253] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 19:58:34.254] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 19:58:34.281] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 19:58:34.281] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
-[27Jun2025 19:58:35.749] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[27Jun2025 19:58:35.797] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[27Jun2025 19:58:35.852] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[27Jun2025 19:58:35.875] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[27Jun2025 19:58:35.906] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
-[27Jun2025 19:58:36.511] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2565ms or 51 ticks behind
-[27Jun2025 19:58:36.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc moved too quickly! -8.696402637052643,0.0,4.9803866050096985
-[27Jun2025 20:00:42.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Ice Bucket Challenge]
-[27Jun2025 20:02:48.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [Who is Cutting Onions?]
-[27Jun2025 20:03:55.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Flint and Steel] to yefry
-[27Jun2025 20:04:07.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry has made the advancement [We Need to Go Deeper]
-[27Jun2025 20:04:08.608] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: V44nxx moved too quickly! 0.6789174899132604,4.243240711822736,-9.621887770084868
-[27Jun2025 20:04:08.622] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3276ms or 65 ticks behind
-[27Jun2025 20:05:03.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FabianTc moved too quickly! -0.007901111379169379,-10.148778836490465,0.9327824270294514
-[27Jun2025 20:05:43.866] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
-[27Jun2025 20:05:43.866] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
-[27Jun2025 20:05:43.867] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
-[27Jun2025 20:05:43.867] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
-[27Jun2025 20:05:43.867] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
-[27Jun2025 20:05:43.884] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
-[27Jun2025 20:05:43.884] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
-[27Jun2025 20:05:53.863] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/110010, l='ServerLevel[world]', x=-914.23, y=65.00, z=-11315.50] died, message: 'Villager was slain by Zombie'
-[27Jun2025 20:07:28.092] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 0.47186659718863666
-[27Jun2025 20:07:28.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved wrongly! 0.6322455606423318
-[27Jun2025 20:07:47.878] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
-[27Jun2025 20:07:47.879] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
-[27Jun2025 20:07:47.880] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
-[27Jun2025 20:07:47.896] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-281, y=-50, z=-279}
-[27Jun2025 20:07:47.897] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-281, y=-57, z=-280}
-[27Jun2025 20:07:47.992] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
-[27Jun2025 20:07:47.993] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
-[27Jun2025 20:07:47.999] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-283, y=-56, z=-275}
-[27Jun2025 20:07:51.116] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
-[27Jun2025 20:07:51.167] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
-[27Jun2025 20:07:51.175] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
-[27Jun2025 20:07:51.175] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
-[27Jun2025 20:07:51.175] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
-[27Jun2025 20:07:51.182] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-289, y=-57, z=-281}
-[27Jun2025 20:07:51.182] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-287, y=-56, z=-283}
-[27Jun2025 20:07:51.183] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-287, y=-57, z=-283}
-[27Jun2025 20:11:37.224] [Server thread/WARN] [tombstone/]: The death event of the player yefry was canceled by another mod
-[27Jun2025 20:11:37.225] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[27Jun2025 20:11:39.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yefry froze to death
-[27Jun2025 20:11:39.221] [Server thread/INFO] [tombstone/]: The player yefry has successfully been saved
-[27Jun2025 20:12:06.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 16 [Ender Pearl] to yefry
-[27Jun2025 20:13:29.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has made the advancement [People Are Strange]
-[27Jun2025 20:15:03.182] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootTable/]: Tried to over-fill a container
-[27Jun2025 20:15:08.464] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootTable/]: Tried to over-fill a container
-[27Jun2025 20:17:00.233] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
-[27Jun2025 20:17:00.234] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
-[27Jun2025 20:17:08.514] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
-[27Jun2025 20:17:24.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc has reached the goal [Spectral Guardian]
-[27Jun2025 20:18:00.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 0.99159035007699,0.0,-10.35261749264464
-[27Jun2025 20:18:00.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.0297284404645666,0.0,-10.750795088515588
-[27Jun2025 20:18:00.946] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.0678665308521431,0.0,-11.148972684386536
-[27Jun2025 20:18:00.947] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.1060046212397197,0.0,-11.547150280257483
-[27Jun2025 20:18:00.947] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.1441427116272962,0.0,-11.945327876128431
-[27Jun2025 20:18:00.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.1822808020148727,0.0,-12.343505471999379
-[27Jun2025 20:18:00.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.2204188924024493,0.0,-12.741683067870326
-[27Jun2025 20:18:00.949] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.2585569827900258,0.0,-13.139860663741274
-[27Jun2025 20:18:00.949] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.2966950731776024,0.0,-13.538038259612222
-[27Jun2025 20:18:00.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.334833163565179,0.0,-13.93621585548317
-[27Jun2025 20:18:00.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.3729712539527554,0.0,-14.334393451354117
-[27Jun2025 20:18:00.951] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.411109344340332,0.0,-14.732571047225065
-[27Jun2025 20:18:00.951] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! 1.4492474347279085,0.0,-15.130748643096013
-[27Jun2025 20:18:02.434] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:02.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6780759770533678,0.0,17.5198142183217
-[27Jun2025 20:18:02.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6780759770533678,0.0,17.5198142183217
-[27Jun2025 20:18:02.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6399378866657912,0.0,17.12163662245075
-[27Jun2025 20:18:02.541] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of V44nxx) moved too quickly! -1.6017997962782147,0.0,16.723459026579803
-[27Jun2025 20:18:58.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[27Jun2025 20:18:58.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[27Jun2025 20:18:58.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Jun2025 02:40:37.912] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[30Jun2025 02:40:37.917] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[30Jun2025 02:40:38.230] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Jun2025 02:40:38.290] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Jun2025 02:40:38.537] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jun2025 02:40:38.539] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jun2025 02:40:38.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jun2025 02:40:38.542] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Jun2025 02:40:38.629] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30Jun2025 02:40:40.241] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Jun2025 02:40:40.260] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30Jun2025 02:40:46.903] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[30Jun2025 02:40:46.905] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[30Jun2025 02:40:47.754] [main/INFO] [journeymap/]: Initializing Packet Registries
+[30Jun2025 02:40:47.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[30Jun2025 02:40:48.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.8 Target: 9.0.0
+[30Jun2025 02:40:48.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Jun2025 02:40:48.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[30Jun2025 02:40:48.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[30Jun2025 02:40:48.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[30Jun2025 02:40:49.427] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Jun2025 02:40:50.103] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[30Jun2025 02:40:50.103] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[30Jun2025 02:40:51.997] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[30Jun2025 02:40:52.100] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1548 advancements
+[30Jun2025 02:40:52.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Jun2025 02:40:52.749] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Jun2025 02:40:52.749] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Jun2025 02:40:52.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Jun2025 02:40:52.844] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Jun2025 02:40:52.865] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Jun2025 02:40:52.995] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Jun2025 02:40:52.996] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Jun2025 02:40:52.996] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Jun2025 02:40:52.996] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Jun2025 02:40:53.022] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Jun2025 02:40:53.023] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Jun2025 02:40:53.024] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Jun2025 02:40:53.057] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Jun2025 02:40:56.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Jun2025 02:41:01.957] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.958] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.959] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.960] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.961] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.962] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.963] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.966] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.966] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.967] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.968] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:01.970] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:02.135] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Jun2025 02:41:02.689] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[30Jun2025 02:41:03.137] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[30Jun2025 02:41:03.238] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7105 ms
+[30Jun2025 02:41:03.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.230s)! For help, type "help"
+[30Jun2025 02:41:03.268] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Jun2025 02:48:40.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[30Jun2025 02:48:40.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: erfe<--[HERE]
+[30Jun2025 02:48:58.894] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FabianTc[/172.23.250.146:52328] logged in with entity id 220 at (-3447.3312003115902, 62.232574511425995, -13849.142794065116)
+[30Jun2025 02:48:58.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FabianTc joined the game
